@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% include lang.html %}
+
+{% assign pinned = site.posts | where: 'pin', 'true' %}
+{% assign default = site.posts | where_exp: 'item', 'item.pin != true and item.hidden != true' %}
+
+<div style="height: 128px;">
+  <img src="/assets/img/banners/banner_short.png" 
+        style="width: 98%; margin-left: 1%; margin-right: 1%; border-radius: 0px; height: fit-content;"/>
+</div>
+
+<body style="width: 90%; margin-left: 5%; margin-right: 5%;">
+  {% include 42ai_home.html %}
+</body>
+
+
+

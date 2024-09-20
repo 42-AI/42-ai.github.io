@@ -1,0 +1,206 @@
+ 
+  <div class="column container" style="border-radius: 0px;">
+ 
+ <!-- TLDR -->
+  <div class="col" style="margin: 25px 15px 50px 15px">
+
+    <p class="h4 roboto" style="color: grey;">Bienvenue sur la page GitHub de <text style="font-weight: bold;">42AI</text></p>
+      <p class="radjani" style="margin: 15px auto 15px auto;">
+       42AI est une association étudiante ayant pour objet d'encourager et de favoriser l'apprentissage de l'Intelligence Artificielle, 
+       ainsi que la constitution et l'animation d'un réseau de passionnés autour de ces problématiques.<br/>
+       Nous créons des contenus pédagogiques et organisons des événements à destination des étudiants tout au long de l'année.<br/>
+       Vous souhaitez en apprendre plus ? Retrouvez toutes les informations dans la <a class="link" href="/about/">section dédiée</a>.
+      </p>
+          <p style="width: 80%; margin: 40px 10% 30px 10%; 
+              display: flex; justify-content: space-between;">
+              <a target="_blank" href="https://www.instagram.com/_42AI_/">
+                <i class="hoverable fa-brands fa-instagram fa-2xl"></i>
+              </a>
+  
+              <a target="_blank" href="https://42ai.medium.com/">
+                <i class="hoverable fa-brands fa-medium fa-2xl"></i>
+              </a>
+  
+              <a target="_blank" href="https://www.youtube.com/c/@42AI_Paris/">
+                <i class="hoverable fa-brands fa-youtube fa-2xl"></i>
+              </a>
+  
+              <a target="_blank" href="https://www.linkedin.com/company/42-artificial-intelligence/">
+                <i class="hoverable fa-brands fa-linkedin fa-2xl"></i>
+              </a>
+              
+              <a target="_blank" href="https://x.com/42AI_">
+                <i class="hoverable fa-brands fa-x-twitter fa-2xl"></i>
+              </a>
+  
+              <a target="_blank" href="https://github.com/42-AI">
+                <i class="hoverable fa-brands fa-github fa-2xl"></i>
+              </a>
+  
+              <a target="_blank" href="https://www.facebook.com/42ArtificialIntelligence/">
+                <i class="hoverable fa-brands fa-facebook fa-2xl"></i>
+              </a>
+          </p>
+  
+  
+      </div>
+
+  
+      <hr/>
+  
+    <!-- // TLDR -->
+    
+    <!-- QUICK ACCESS -->
+     <div style="margin: 25px 15px 5px 15px;">
+        <p class="h4 roboto" style="color: grey;">Accès rapide</p>
+        <div class="row container" style="width: 96%; margin: 25px 2% 15px 2%; padding: 0px;">
+          <div class="col radjani">
+            <ul style="list-style-type: none;">
+              <li class="hoverable2"><a target="_blank" href="https://github.com/42-AI/" style="color: #34343c;">
+                  <i class="fa-brands fa-github fa-lg" style="color: #34343c;"></i>&emsp;42AI sur GitHub</a>
+                </li>
+              <li class="hoverable2"><a href="/42students/" style="color: #34343c;">
+                <image src="/assets/img/src/logo_42.png" style="width: 20px;"></image>&emsp;Étudiants 42
+              </a>
+              </li>
+              <li class="hoverable2"><a href="/contact" style="color: #34343c;">
+                  <i class="fa-solid fa-at fa-lg" style="color: #34343c;"></i>&emsp;Contactez-nous !</a></li>
+            </ul>
+          </div>
+          <div class="col radjani">
+            <ul style="list-style-type: none; ">
+              <li class="hoverable2"><a target="_blank" href="/learning/#BootcampPython" style="color: #34343c;" >
+                  <i class="fab fa-python fa-lg" style="color: #34343c;"></i>&emsp;Bootcamp Python</a>
+                </li>
+              <li class="hoverable2"><a href="/learning/#BootcampML" style=" color: #34343c;">
+                  <i class="fa-solid fa-cog fa-lg" style="color: #34343c;"></i>&emsp;Bootcamp Machine Learning</a>
+                </li> 
+            </ul>
+          </div>
+        </div>
+       
+     </div>
+     <!-- // QUICK ACCESS -->
+
+     <hr/>
+
+     <div style="margin: 25px 15px 25px 15px;">
+
+         <p class="h4 roboto" style="color: grey;">Dernière activité</p>
+
+         <!-- ACTIVITY / LAST POSTS -->
+         <div class="column" style="margin-top: 30px;">
+          {% assign posts = '' | split: '' %}
+      
+          <!-- Get pinned posts -->
+      
+          {% assign offset = paginator.page | minus: 1 | times: paginator.per_page %}
+          {% assign pinned_num = pinned.size | minus: offset %}
+      
+          {% if pinned_num > 0 %}
+            {% for i in (offset..pinned.size) limit: pinned_num %}
+              {% assign posts = posts | push: pinned[i] %}
+            {% endfor %}
+          {% else %}
+            {% assign pinned_num = 0 %}
+          {% endif %}
+      
+          <!-- Get default posts -->
+      
+          {% assign default_beg = offset | minus: pinned.size %}
+      
+          {% if default_beg < 0 %}
+            {% assign default_beg = 0 %}
+          {% endif %}
+      
+          {% assign default_num = paginator.posts | size | minus: pinned_num %}
+          {% assign default_end = default_beg | plus: default_num | minus: 1 %}
+      
+          {% if default_num > 0 %}
+            {% for i in (default_beg..default_end) %}
+              {% assign posts = posts | push: default[i] %}
+            {% endfor %}
+          {% endif %}
+      
+          <div id="post-list" class="flex-grow-1 px-xl-1" style="max-width: 90%; margin: 0 5% 0 5%;">
+            {% for post in posts %}
+              <article class="card-wrapper card">
+                <a href="{{ post.url | relative_url }}" class="post-preview row g-0 flex-md-row-reverse">
+                  {% assign card_body_col = '12' %}
+      
+                  {% if post.image %}
+                    {% assign src = post.image.path | default: post.image %}
+                    {% unless src contains '//' %}
+                      {% assign src = post.media_subpath | append: '/' | append: src | replace: '//', '/' %}
+                    {% endunless %}
+      
+                    {% assign alt = post.image.alt | xml_escape | default: 'Preview Image' %}
+      
+                    {% assign lqip = null %}
+      
+                    {% if post.image.lqip %}
+                      {% capture lqip %}lqip="{{ post.image.lqip }}"{% endcapture %}
+                    {% endif %}
+      
+                    <div class="col-md-5">
+                      <img src="{{ src }}" alt="{{ alt }}" {{ lqip }}>
+                    </div>
+      
+                    {% assign card_body_col = '7' %}
+                  {% endif %}
+      
+                  <div class="col-md-{{ card_body_col }}">
+                    <div class="card-body d-flex flex-column">
+                      <h1 class="card-title my-2 mt-md-0">{{ post.title }}</h1>
+      
+                      <div class="card-text content mt-0 mb-3">
+                        <p>{% include post-description.html %}</p>
+                      </div>
+      
+                      <div class="post-meta flex-grow-1 d-flex align-items-end">
+                        <div class="me-auto">
+                          <!-- posted date -->
+                          <i class="far fa-calendar fa-fw me-1"></i>
+                          {% include datetime.html date=post.date lang=lang %}
+      
+                          <!-- categories -->
+                          {% if post.categories.size > 0 %}
+                            <i class="far fa-folder-open fa-fw me-1"></i>
+                            <span class="categories">
+                              {% for category in post.categories %}
+                                {{ category }}
+                                {%- unless forloop.last -%},{%- endunless -%}
+                              {% endfor %}
+                            </span>
+                          {% endif %}
+                        </div>
+      
+                        {% if post.pin %}
+                          <div class="pin ms-1">
+                            <i class="fas fa-thumbtack fa-fw"></i>
+                            <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
+                          </div>
+                        {% endif %}
+                      </div>
+                      <!-- .post-meta -->
+                    </div>
+                    <!-- .card-body -->
+                  </div>
+                </a>
+              </article>
+            {% endfor %}
+          </div>
+          <!-- #post-list -->
+      
+          {% if paginator.total_pages > 1 %}
+            {% include post-paginator.html %}
+          {% endif %}
+      </div>
+
+
+    </div>
+  </div>
+
+<style>
+
+</style>
