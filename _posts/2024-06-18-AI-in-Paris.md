@@ -5,7 +5,7 @@ categories: [Événements,Collaborations,Entrepreneuriat,Conférences]
 tags: [Événements,Collaborations,Entrepreneuriat,Conférences]     # TAG names should always be lowercase
 description: "Startup Pizza Night AI Special"
 image:
-  path: /assets/img/src/events/aiInParis.png
+  path: /assets/img/events/aiInParis.png
 ---
 
 Fruit d'une première collaboration entre 42AI, 42Entrepreneurs et la Paris AI Society, la soirée "AI in Paris" a rassemblé plus de 200 personnes, étudiants et externes, venus écouter des témoignages d'entrepreneurs et échanger autour de pizzas ! 

@@ -19,7 +19,7 @@ description:
 
 {{ template_variables.intro[lang]}}
 
-![Historique logos 42AI](/assets/img/banners/banner_logos.png){: width="100%" height="auto" }
+![Historique logos 42AI](/assets/img/banners/banner_legacy_logos.png){: width="100%" height="auto" }
 
 ## {{ template_variables.social_object.title[lang]}}
 
