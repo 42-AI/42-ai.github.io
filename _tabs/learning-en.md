@@ -1,16 +1,17 @@
 ---
 icon: fa-solid fa-school 
 order: 1
-title: Apprentissage
+title: Learning resources
 toc: true
 layout: post
-lang: fr
+lang: en
 permalink: /learning
 display_metadata: False
 description:
-    en: By 42students, for students !
+    en: Created by 42 students, for students !
     fr: Créé par les étudiants de 42, pour les étudiants !
 ---
+
 
 {% assign template_variables = site.data.locales["tabs"]['learning']['learning'] %}
 

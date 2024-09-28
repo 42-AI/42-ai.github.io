@@ -63,7 +63,7 @@ post:
   pageview_measure: vues
   read_time:
     unit: min
-    prompt: lire
+    prompt: ' de lecture'
   relate_posts: Autres lectures
   share: Partager
   button:

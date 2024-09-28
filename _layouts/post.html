@@ -16,16 +16,16 @@ tail_includes:
   <header>
     <h1 data-toc-skip>{{ page.title }}</h1>
     {% if page.description %}
-      <p class="post-desc fw-light mb-4">{{ page.description }}</p>
+      <p class="post-desc fw-light mb-4">{{ page.description[site.active_lang] }}</p>
     {% endif %}
 
     <div class="post-meta text-muted">
       <!-- published date -->
 
-      <!-- 42AI modif : seules pages type POST permettent d'afficher le TOC -->
-      {% if page.title != 'Pôles' and page.title != 'Apprentissage' and page.title != "L'association" and page.title != "Contact"
-        and page.title != 'Partenariats' and page.title != 'Étudiants de 42' and page.title != 'Équipe'
-      %}
+      <!-- 42AI modif : seules pages type POST permettent d'afficher le TOC selon structure h2,h3,h4 -->
+      <!-- Suppression de l'affichage des metadonnees du POST si page appartenant aux tabs = ajout 
+          display_metadata = False sur pages qui ne sont pas des publications -->
+      {% if page.display_metadata == False %}
       <span>
         {{ site.data.locales[lang].post.posted }}
         {% include datetime.html date=page.date tooltip=true lang=lang %}
@@ -38,6 +38,7 @@ tail_includes:
           {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
+      <!-- 42AI modif : seules pages type POST permettent d'afficher le TOC selon structure h2,h3,h4 -->
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
@@ -108,37 +109,38 @@ tail_includes:
   </div>
 
   <!-- 42AI modif -->
-  {% if page.title != 'Pôles' and page.title != 'Apprentissage' and page.title != "L'association" and page.title != "Contact"
-    and page.title != 'Partenariats' and page.title != 'Étudiants de 42' and page.title != 'Équipe' %}
+  {% if page.display_metadata == False  %}
 
-  <div class="post-tail-wrapper text-muted">
-    <!-- categories -->
-    {% if page.categories.size > 0 %}
-      <div class="post-meta mb-3">
-        <i class="far fa-folder-open fa-fw me-1"></i>
-        {% for category in page.categories %}
-          <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
-          {%- unless forloop.last -%},{%- endunless -%}
-        {% endfor %}
-      </div>
-    {% endif %}
+    <div class="post-tail-wrapper text-muted">
+      <!-- categories -->
+      {% if page.categories.size > 0 %}
+        <div class="post-meta mb-3">
+          <i class="far fa-folder-open fa-fw me-1"></i>
+          {% for category in page.categories %}
+            <a href="{{ site.baseurl }}/categories/{{ category | slugify | url_encode }}/">{{ category }}</a>
+            {%- unless forloop.last -%},{%- endunless -%}
+          {% endfor %}
+        </div>
+      {% endif %}
 
-    <!-- tags -->
-    {% if page.tags.size > 0 %}
-      <div class="post-tags">
-        <i class="fa fa-tags fa-fw me-1"></i>
-        {% for tag in page.tags %}
-          <a
-            href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
-            class="post-tag no-text-decoration"
-          >
-            {{- tag -}}
-          </a>
-        {% endfor %}
-      </div>
-    {% endif %}
+      <!-- tags -->
+      {% if page.tags.size > 0 %}
+        <div class="post-tags">
+          <i class="fa fa-tags fa-fw me-1"></i>
+          {% for tag in page.tags %}
+            <a
+              href="{{ site.baseurl }}/tags/{{ tag | slugify | url_encode }}/"
+              class="post-tag no-text-decoration"
+            >
+              {{- tag -}}
+            </a>
+          {% endfor %}
+        </div>
+      {% endif %}
 
+  {% endif %}
 
+  {% if page.display_metadata == True  %}
     <div
       class="
         post-tail-bottom
@@ -166,5 +168,8 @@ tail_includes:
 
   <!-- Fin Modif 42AI -->
   {% endif %}
+
+
+
 
 </article>

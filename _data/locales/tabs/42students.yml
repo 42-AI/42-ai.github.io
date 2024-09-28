@@ -1,0 +1,43 @@
+# ****************************************************************************************
+# STUDENT PAGE CONTENT 
+
+students:
+  description: 
+    fr: 
+    en: 
+  who_adhesion:
+    title:
+      fr: "Qui peut adhérer à 42AI ?"
+      en: "Who can be a member of 42AI ?"
+    text:
+      fr: "L'adhésion à 42AI est réservée à tout étudiant régulièrement inscrit 
+      à 42Paris et en cours de cursus (no freeze, blackhole ou alumni)."
+      en: "Being a member of 42AI is possible for any registered student in 42Paris who 
+      is neither freezed, nor alumnized nor blackholed."
+  how_adhesion:
+    title:
+      fr: "Comment adhérer à 42AI ?"
+      en: "How to become a member of 42AI ?"
+    text:
+      fr: "L'inscription à notre serveur Discord suffit pour être membre adhérent.<br/><br/>
+          Vous pouvez rejoindre notre serveur à partir du 
+          [portail des associations de 42 sur Discord](https://discord.com/channels/887850395697807362/887850396314398720) 👈"
+      en: "Being a member of 42AI is possible for any registered student in 42Paris who 
+      is neither freezed, nor alumnized nor blackholed."
+  how_contribution:
+    title:
+      fr: "Comment contribuer à 42AI ?"
+      en: "How to contribute to 42AI ?"
+    text:
+      fr: "Tout adhérent de l'asso peut contribuer de diverses manières : <br/>
+- en étant ***volontaire*** pour aider dans l'organisation ou l'encadrement d'événements<br/>
+- en participant à un projet pédagogique en tant que ***testeur*** ou ***contributeur***.<br/><br/>
+Plus généralement, toute initiative des étudiants est la bienvenue !
+Contactez-nous pour en discuter et voir comment nous pouvons vous aider à concrétiser ce projet."
+      en: "Any member of the association can contribute in various ways : <br/>
+- by being a ***volunteer*** to help with the organization of events such as conferences or bootcamps.<br/>
+- by taking part in the creation of a learning project either as ***a contributor*** or ***a tester***.<br/><br/>
+Any initiative is highly welcome ! Contact us to discuss your project and how we can help you with it !"
+
+# //STUDENT PAGE CONTENT 
+# ****************************************************************************************

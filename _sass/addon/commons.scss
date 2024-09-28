@@ -1548,34 +1548,22 @@ search {
   }
 } /* min-width: 1650px */
 
-// Ajouts 42AI
+// Ajouts 42AI (pour formatage pages Markdown)
 h1,h2,h3,h4,h5{
-  color: darkgrey;
+  color: gray;
 }
 h1{font-size: 27px;}
 h2{font-size: 23px;}
 h3{font-size: 20px;}
 h4{font-size: 18px;}
 h5{font-size: 15px;}
+p,ul,li{
+  font-size: 15px;
+  font-family: 'radjani';
+}
 table{
   width: 100%;
+  background-color: white;
 }
-.hoverable{
-  color: #34343c;
-}
-.hoverable:hover{
-  transition: 0.5s;
-  font-size: 64px;
-  margin: 5px;
-  color: lightslategray
-}
-.hoverable2:hover{
-  transition: 0.337s;
-  font-size: 1.1rem;
-  font-weight: bold;
-  margin: 0px
-}
-.link{
-  font-weight: bold;
-  color: #34343c
-      }
+
+// Fin Ajouts 42AI Markdown)

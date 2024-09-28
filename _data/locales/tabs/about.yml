@@ -1,0 +1,72 @@
+# ****************************************************************************************
+
+# ABOUT PAGE CONTENT
+about:
+  intro:
+    fr: "42 Artificial Intelligence ('42AI') est une association loi 1901 de droit français créée en 2017.<br/>
+Elle est enregistrée au Répertoire National des Associations sous le matricule W751238159."
+    en: "42 Artificial Intelligence ('42AI') is a french association under the regime of 1901's law created in 2017.<br/>
+It is officially registered under the W751238159 matricule."
+  social_object:
+    title:
+      fr: "Objet social"
+      en: "Social reason"
+    text: 
+      fr: "L’association a pour objet la vulgarisation, la promotion et la diffusion des connaissances dans le domaine de l’intelligence artificielle au sein de l’école 42,
+      ainsi que la mise en place d’activités et d’initiatives visant à favoriser l’apprentissage et le développement des compétences en intelligence artificielle pour ses membres."
+      en: "The association aims at vulgarizing, promoting and spreading knowledge about AI for 42students, by creating learning resources and initiatives to favor
+      its members' learning and competency in the realm of AI programming."
+  action: 
+    title:
+      fr: "Moyens d'action"
+      en: "Means of action"
+    text: 
+      fr: "L’Association peut recourir à tout moyen d’action utile pour l’accomplissement de son objet, dont notamment :
+
+- La création d’un réseau d’échanges entre ses membres mais aussi avec toute personne physique ou morale non membre de l’Association capable d’apporter un savoir-faire technique ou une aide financière ; et
+
+- La création de partenariats avec des organismes publics ou privés ; et
+
+- L’organisation de tout type d’événements permettant de faciliter la mise en relation de ses membres entre eux ou avec des personnes extérieures à l’Association ; et
+
+- La création de contenus pédagogiques et l’organisation de séminaires pour initier et/ou renforcer les compétences de ses membres ; et
+
+- La création et la tenue d’un site internet et/ou de pages de réseaux sociaux ; et 
+
+- Au titre de ses activités annexes, facturer des prestations des projets informatiques en IA, et de formations en lien avec son objet.
+"
+      en: "The association can use any means necessary within the law to accomplish its purpose, and notably : 
+      
+- The creation and animation of a network of exchanges between its members and with any physical or moral entity that is capable of brining its expertise or financial help; and
+
+- The creation of partnerships with public and private entities; and 
+
+- The organization of events allowing for interactions between members of the association and potentially with external people relevant to the organization's purpose; and 
+
+- The creation of learning resources and the organization of learning seminars to introduce students to the tech and/or develop and improve their existing skills; and 
+
+- The creation and administration of a website and/or social media pages; and 
+
+- Exceptionnaly, providing paid formations and contents by members of the association."
+  statuts:
+    title:
+      fr: "Statuts de l’association (v5 - 3 Juillet 2024)"
+      en: "42AI legal statuses (v5 - 2024, July the 3rd)"
+    text:
+      fr: "La version en vigueur des statuts de l association est consultable <a class='link' href='https://github.com/42-AI/legal/blob/main/statuses/README.md'>ici</a>."
+      en: "The current version can be looked at <a class='link' href='https://github.com/42-AI/legal/blob/main/statuses/README.md'>here</a>."
+  finance:
+    title: 
+      fr: "Moyens financiers"
+      en: "Financial resources"
+    text:
+      fr: "42AI ne requérant par principe aucune cotisation de la part de ses membres, l’association doit s’auto-financer,
+      notamment par la conclusion de partenariats, l’organisation d’événements et l’accomplissement de prestations.<br/><br/>
+      Si vous souhaitez pouvoir participer au développement de 42AI en tant que partenaire financier ou mécène, 
+      rendez-vous sur la page <a class='link' href='/partnerships'>Partenariats</a>."
+      en: "42AI does not ask its members to participate financially. For this reason, the association must find its own financial means, notably by concluding partnerships
+      setting up events. <br/><br/>
+      If you wish to contribute as a mecen or a final partner, check out the <a class='link' href='/partnerships'>Partnerships page</a>."
+# // ABOUT PAGE CONTENT
+
+# ****************************************************************************************

@@ -11,6 +11,7 @@
         <img src="{{- avatar_url -}}" width="128" height="128" style="margin-left: auto; margin-right: auto;" alt="avatar" onerror="this.style.display='none'">
       {%- endif -%}
     </a>
+    
 
     <!-- <h1 class="site-title">
       <a href="{{ '/' | relative_url }}">{{ site.title }}</a>
@@ -21,26 +22,29 @@
 
   <!-- .profile-wrapper -->
 
+
+
+
   <nav class="flex-column flex-grow-1 w-100 ps-0">
     <ul class="nav">
       <!-- home -->
       <li class="nav-item{% if page.layout == 'home' %}{{ " active" }}{% endif %}">
         <a href="{{ '/' | relative_url }}" class="nav-link">
           <i class="fa-fw fas fa-home"></i>
-          <span style="font-family: radjani;">{{ site.data.locales[include.lang].tabs.home | upcase }}</span>
+          <span style="font-family: radjani;">{{ site.data.locales[site.active_lang].tabs.home | upcase }}</span>
         </a>
       </li>
       <!-- the real tabs -->
       {% for tab in site.tabs %}
         
       <!-- Debut modif 42AI if-->
-        {% if tab.url != '/categories/' and tab.url != '/tags/' %}
+        {% if tab.url != '/categories/' and tab.url != '/tags/' and site.active_lang == tab.lang and tab.permalink != '/categories' and tab.permalink != '/tags'%}
         <li class="nav-item{% if tab.url == page.url %}{{ " active" }}{% endif %}">
           <a href="{{ tab.url | relative_url }}" class="nav-link">
             <i class="fa-fw {{ tab.icon }}"></i>
-            {% capture tab_name %}{{ tab.url | split: '/' }}{% endcapture %}
+            {% capture tab_name %}{{ tab.permalink | split: '/' }}{% endcapture %}
 
-            <span style="font-family: radjani;">{{ site.data.locales[include.lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
+            <span style="font-family: radjani;">{{ site.data.locales[site.active_lang].tabs.[tab_name] | default: tab.title | upcase }}</span>
           </a>
         </li>
         {% endif %}
@@ -51,8 +55,9 @@
     </ul>
   </nav>
 
-  <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
-    {% unless site.theme_mode %}
+  <div class="sidebar-bottom d-flex flex-wrap align-items-center w-100">
+
+      {% unless site.theme_mode %}
       <button type="button" class="btn btn-link nav-link" aria-label="Switch Mode" id="mode-toggle">
         <i class="fas fa-adjust"></i>
       </button>
@@ -77,7 +82,11 @@
           {% assign url = '/feed.xml' | relative_url %}
         {% else %}
           {% assign url = entry.url %}
+          
       {% endcase %}
+
+
+      
 
       {% if url %}
         <a
@@ -100,9 +109,21 @@
         >
           <i class="{{ entry.icon }}"></i>
         </a>
+        
       {% endif %}
+
     {% endfor %}
+
+
+      <!-- <nav class="d-flex flex-wrap align-items-center"> -->
+        <!-- jekyll-polyglot will process ferh= into href= through the static_href liquid block tag without relativizing the url; useful for making language navigation switchers  -->
+        {% for tongue in site.languages %}
+      <a {% if tongue == site.active_lang %}style="font-weight: bold;"{% endif %} {% static_href %}href="{% if tongue == site.default_lang %}{{site.baseurl}}{{page.url}}{% else %}{{site.baseurl}}/{{ tongue }}{{page.url}}{% endif %}"{% endstatic_href %} >{{ tongue }}</a>{%- if forloop.last == false -%}{{" "}}{%- endif -%}
+        {% endfor %}
+      <!-- </nav> -->
+
   </div>
   <!-- .sidebar-bottom -->
+
 </aside>
 <!-- #sidebar -->

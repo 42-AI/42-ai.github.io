@@ -8,7 +8,7 @@ toc: true
 
 {% include lang.html %}
 
-<article class="px-1" style="width: 96%; margin-left: 2%; margin-right: 2%; ">
+<article class="px-1">
   {% if page.layout == 'page' or page.collection == 'tabs' %}
     {% assign tab_key = page.title | downcase %}
     {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
@@ -21,4 +21,5 @@ toc: true
   {% else %}
     {{ content }}
   {% endif %}
+  
 </article>
