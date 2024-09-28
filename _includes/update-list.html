@@ -34,18 +34,19 @@
           <a style="font-size: 14px" href="{{ url }}">{{ post.title }}</a>
         </li>
       {% endfor %}
-        <!-- Ajout 42AI -->
-         <a href="/categories">
-          <button class="post-tag btn btn-outline-primary" style="background-color: lightgrey; margin-top: 15px;
-          border-radius: 5px; font-family: roboto;">
-            {% if site.active_lang == 'fr' %}Voir tous les posts
-            {% elsif site.active_lang == 'en' %}See all posts
-            {% endif %}
-             </button>
-    
-         </a>
-        <!-- //Ajout 42AI -->
+
     </ul>
+            <!-- Ajout 42AI -->
+            <a href="/categories">
+              <button class="post-tag btn btn-outline-primary" style="background-color: lightgrey; margin-top: 05px;
+              border-radius: 5px; font-family: roboto;">
+                {% if site.active_lang == 'fr' %}Voir tous les posts
+                {% elsif site.active_lang == 'en' %}See all posts
+                {% endif %}
+                 </button>
+        
+             </a>
+            <!-- //Ajout 42AI -->
 
   </section>
   <!-- #access-lastmod -->

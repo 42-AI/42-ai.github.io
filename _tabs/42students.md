@@ -15,7 +15,7 @@ description:
 {% assign template_variables = site.data.locales["tabs"]['42students']['students'] %}
 {% assign lang = page.lang %}
 
-![42AI banniere](/assets/img/banners/banner_black_op60.png){: width="100%";height="auto" }
+![42AI banniere](/assets/img/banners/banner_black_00.png){: width="100%";height="auto" }
 
 ## {{template_variables.who_adhesion.title[lang] }}
 
