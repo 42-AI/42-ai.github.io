@@ -1,10 +1,10 @@
 ---
 icon: fa-solid fa-bell
 order: 2
-title: Étudiants de 42
+title: 42 Students
 toc: true
 layout: post
-lang: fr
+lang: en
 permalink: /42students
 display_metadata: False
 description:

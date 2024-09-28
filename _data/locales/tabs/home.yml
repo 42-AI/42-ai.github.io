@@ -1,0 +1,38 @@
+# ****************************************************************************************
+# HOME PAGE CONTENT
+home:
+  asso_description:
+    fr: "42AI est une association étudiante ayant pour objet d'encourager et de favoriser l'apprentissage de l'Intelligence Artificielle, ainsi que la constitution et l'animation d'un réseau de passionnés autour de ces problématiques.<br/>
+Nous créons des contenus pédagogiques et organisons des événements à destination des étudiants tout au long de l'année.<br/>
+Vous souhaitez en apprendre plus ? Retrouvez toutes les informations dans <a href='about' class='link'>la section dédiée</a>."
+    en: "42AI is a student association whose purposes are to foster learning and discussion about Artificial Intelligence, and to create and animate a network of passionates around these topics.<br/>
+We create learning resources and organize events along the year.<br/>
+Interested in knowing more ? Find out all the relevant information in the <a href='about' class='link'>dedicated section</a>."
+  welcome: 
+    fr: "Bienvenue sur la page GitHub de 42AI"
+    en: "Welcome to 42AI's GitHub page"
+  quick_access:
+    text: 
+      fr: "Accès rapide"
+      en: "Quick access"
+    gh_link: 
+      fr: "42AI sur GitHub"
+      en: "42AI on GitHub"
+    42studs_link: 
+      fr: "Étudiants de 42"
+      en: "42 Students"
+    contact_link: 
+      fr: "Contactez-nous !"
+      en: "Contact us !"
+    py_btcmp_link:
+      fr: "Bootcamp Python"
+      en: "Python Bootcamp"
+    ml_btcmp_link: 
+      fr: "Bootcamp Machine Learning"
+      en: "Machine Learning Bootcamp"
+  last_activity: 
+      fr: "Dernières actualités"
+      en: "Last news"
+
+# // HOME PAGE CONTENT
+# ****************************************************************************************

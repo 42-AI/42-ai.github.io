@@ -1,0 +1,61 @@
+intro:
+  fr: "L’association est composée de pôles thématiques et fonctionne selon une 
+  organisation décentralisée."
+  en: "The association functions with thematic departments in a decentralized manner."
+
+pedago:
+  title:
+    fr: "Pôle Pédagogie"
+    en: "Academic Department"
+  people: "Amir Mahla, Mathieu Perez"
+  contact: "pedago@42ai.fr"
+  description: 
+    fr: "Le pôle pédago oeuvre à maintenir les contenus existants
+     et à en développer de nouveaux, en partenariat avec les étudiants."
+    en: "The Academic department aims at maintaining and updating existing learning resources and works
+    at developing new ones along with students."
+
+ethics:
+  title:
+    fr: "Pôle Éthique et Juridique"
+    en: "Ethics and Legal Department"
+  people: "Camille Truchot"
+  contact: "ethics@42ai.fr"
+  description: 
+    fr: "Le pôle Éthique et Juridique se concentre sur les problématiques d’insécurité juridique
+     et d’éthique qui naissent de l’émergence des IA génératives et de leur démocratisation."
+    en: "The Ethics and Legal Department focuses on legal and ethics issues that arise with the
+    emergence of generative AI and their growing adoption."
+  
+lab: 
+  title: 
+    fr: "Pôle Lab IA"
+    en: "AI Lab Department"
+  people: "Jung-moo Cheon"
+  contact: "lab@42ai.fr"
+  description: 
+    fr: "Le Lab est l’espace d’expérimentation de 42AI.<br/>
+Pour l’année en cours, les ressources du lab sont consacrées à la création du Bootcamp Deep Learning,
+ qui viendra s’ajouter aux Bootcamps Python et Machine Learning existants.<br/>
+Si vous souhaitez participer à la création de ce bootcamp, contactez Jungmoo.<br/>
+À terme, nous espérons pouvoir dôter le lab de ressources pour permettre aux étudiants 
+de nous proposer leurs projets et de les accompagner dans leur réalisation."
+    en: "The Lab is the experimentation space of 42AI.<br/>
+For the current year, resources of the lab are exceptionally dedicated to the creation of the Deep Learning Bootcamp,
+which will add to the existing Python and Machine Learning Bootcamps.<br/>
+If you want to contribute to the creation of this bootcamp, feel free to get in touch with Jung-moo!<br/>
+In the longer term, we are planning to get dedicated computing resources for the lab and allow students to 
+to propose and lead their own project under the guidance and supervision of the lab members. 
+"
+
+media:
+  title:
+    fr: "Pôle Média et Création"
+    en: "Media and Creation Department"
+  people: "Tatiana Komaristaia"
+  contact: "media@42ai.fr"
+  description: 
+    fr: "Le pôle Média est une expérimentation visant à la production de contenus 
+    audiovisuels comme des podcasts, des entretiens ou autres."
+    en: "The Media Department is an experimentation consisting in the production of short
+    visual contents such as podcasts, interviews or else."

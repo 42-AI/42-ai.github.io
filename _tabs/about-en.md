@@ -2,15 +2,15 @@
 # the default layout is 'page'
 layout: post
 icon: fas fa-info-circle
-order: 2
-title: L'association
+title: The organization
 toc: true
-lang: fr
+lang: en
 permalink: /about
+order: 5
 display_metadata: False
-description: 
+description:
     fr: "Informations à propos de 42 Artificial Intelligence"
-    en: "Relevant information about 42 Artificial Intelligence"
+    en: "Information about 42 Artificial Intelligence"
 ---
 
 {% assign template_variables = site.data.locales["tabs"]['about']['about'] %}

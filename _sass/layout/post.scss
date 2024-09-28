@@ -242,7 +242,6 @@ header {
     font-size: 0.85rem;
     line-height: 1.25;
     padding-left: 0;
-
     li {
       &:not(:last-child) {
         margin: 0.4rem 0;
@@ -260,7 +259,9 @@ header {
       white-space: nowrap;
       overflow: hidden;
       text-overflow: ellipsis;
-
+      font-family:'Source Sans Pro';
+      font-size: 13px;
+      text-decoration: none;
       &:hover {
         color: var(--toc-highlight);
         text-decoration: none;

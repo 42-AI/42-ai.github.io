@@ -1,15 +1,63 @@
- 
+ <!-- ***************************************** -->
+ <!-- 42AI HOME IMPORTS : importing relevant language variables and creating custom classes for homepage -->
+ <!-- ***************************************** -->
+
+{% assign 42ai_home = /site.data.locales["tabs"]['home'].home %}
+{% assign lang = site.active_lang %}
+
+<style>
+.hoverableIcon{
+  color: #34343c;
+}
+.hoverableIcon:hover{
+  transition: 0.5s;
+  font-size: 64px;
+  margin: 5px;
+  color: lightslategray
+}
+.hoverableLink:hover{
+  transition: 0.337s;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0px
+}
+.link{
+  font-weight: bold;
+  color: gray
+}
+.link:hover{
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: 0.337s;
+  color: #34343c
+}
+.hoverable{
+  color: #34343c;
+}
+.hoverable:hover{
+  transition: 0.5s;
+  font-size: 64px;
+  margin: 5px;
+  color: lightslategray
+}
+.hoverable2:hover{
+  transition: 0.337s;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin: 0px
+}
+</style>
+ <!-- ***************************************** -->
+ <!-- END 42AI IMPORTS -->
+ <!-- ***************************************** -->
+
+
   <div class="column container" style="border-radius: 0px;">
  
- <!-- TLDR -->
+  <!-- TLDR -->
   <div class="col" style="margin: 25px 15px 50px 15px">
-
-    <p class="h4 roboto" style="color: grey;">Bienvenue sur la page GitHub de <text style="font-weight: bold;">42AI</text></p>
-      <p class="radjani" style="margin: 15px auto 15px auto;">
-       42AI est une association étudiante ayant pour objet d'encourager et de favoriser l'apprentissage de l'Intelligence Artificielle, 
-       ainsi que la constitution et l'animation d'un réseau de passionnés autour de ces problématiques.<br/>
-       Nous créons des contenus pédagogiques et organisons des événements à destination des étudiants tout au long de l'année.<br/>
-       Vous souhaitez en apprendre plus ? Retrouvez toutes les informations dans la <a class="link" href="/about/">section dédiée</a>.
+    <h3>{{42ai_home.welcome[lang]}}</h3>
+      <p class="radjani" style="margin: 15px auto 15px auto;">{{42ai_home.asso_description[lang]}}
       </p>
           <p style="width: 80%; margin: 40px 10% 30px 10%; 
               display: flex; justify-content: space-between;">
@@ -44,37 +92,40 @@
   
   
       </div>
+  <!-- // TLDR -->
 
   
       <hr/>
   
-    <!-- // TLDR -->
-    
+
     <!-- QUICK ACCESS -->
-     <div style="margin: 25px 15px 5px 15px;">
-        <p class="h4 roboto" style="color: grey;">Accès rapide</p>
-        <div class="row container" style="width: 96%; margin: 25px 2% 15px 2%; padding: 0px;">
-          <div class="col radjani">
+     <div style="margin: 25px 15px 15px 15px;">
+       
+        <h3>{{ 42ai_home.quick_access.text[site.active_lang] }}</h3>
+
+        <div class="row container" style="padding: 15px;">
+          <div class="col-md-6 col-sm-12">
             <ul style="list-style-type: none;">
-              <li class="hoverable2"><a target="_blank" href="https://github.com/42-AI/" style="color: #34343c;">
-                  <i class="fa-brands fa-github fa-lg" style="color: #34343c;"></i>&emsp;42AI sur GitHub</a>
+              <li class="hoverableLink"><a target="_blank" href="https://github.com/42-AI/">
+                  <i class="fa-brands fa-github fa-lg"></i>&emsp;{{ 42ai_home.quick_access.gh_link[site.active_lang] }}</a>
                 </li>
-              <li class="hoverable2"><a href="/42students/" style="color: #34343c;">
-                <image src="/assets/img/src/logo_42.png" style="width: 20px;"></image>&emsp;Étudiants 42
+              <li class="hoverableLink"><a href="/42students/">
+                <image src="/assets/img/src/logo_42.png" style="width: 20px;"></image>&emsp;{{ 42ai_home.quick_access.42studs_link[site.active_lang] }}
               </a>
               </li>
-              <li class="hoverable2"><a href="/contact" style="color: #34343c;">
-                  <i class="fa-solid fa-at fa-lg" style="color: #34343c;"></i>&emsp;Contactez-nous !</a></li>
+              <li class="hoverableLink"><a href="/contact">
+                  <i class="fa-solid fa-at fa-lg"></i>&emsp;{{ 42ai_home.quick_access.contact_link[site.active_lang] }}</a></li>
             </ul>
           </div>
-          <div class="col radjani">
-            <ul style="list-style-type: none; ">
-              <li class="hoverable2"><a target="_blank" href="/learning/#BootcampPython" style="color: #34343c;" >
-                  <i class="fab fa-python fa-lg" style="color: #34343c;"></i>&emsp;Bootcamp Python</a>
+          <div class="col-md-6 col-sm-12">
+            <ul style="list-style-type: none;">
+              <li class="hoverableLink"><a href="/learning/#1-bootcamp-python">
+                  <i class="fab fa-python fa-lg"></i>&emsp;{{ 42ai_home.quick_access.py_btcmp_link[site.active_lang] }}</a>
                 </li>
-              <li class="hoverable2"><a href="/learning/#BootcampML" style=" color: #34343c;">
-                  <i class="fa-solid fa-cog fa-lg" style="color: #34343c;"></i>&emsp;Bootcamp Machine Learning</a>
-                </li> 
+              <li class="hoverableLink"><a href="/learning/#2-bootcamp-apprentissage-automatique-machine-learning">
+                  <i class="fa-solid fa-cog fa-lg"></i>&emsp;{{ 42ai_home.quick_access.ml_btcmp_link[site.active_lang] }}</a>
+                </li>
+              
             </ul>
           </div>
         </div>
@@ -84,11 +135,12 @@
 
      <hr/>
 
+
+      <!-- ACTIVITY / LAST POSTS -->
      <div style="margin: 25px 15px 25px 15px;">
 
-         <p class="h4 roboto" style="color: grey;">Dernière activité</p>
+         <h3 class="roboto" style="color: grey;">{{ 42ai_home.last_activity[site.active_lang] }}</h3>
 
-         <!-- ACTIVITY / LAST POSTS -->
          <div class="column" style="margin-top: 30px;">
           {% assign posts = '' | split: '' %}
       
@@ -197,10 +249,7 @@
           {% endif %}
       </div>
 
-
     </div>
+      <!-- END ACTIVITY / LAST POSTS -->
+
   </div>
-
-<style>
-
-</style>

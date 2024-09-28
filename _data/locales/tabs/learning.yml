@@ -1,0 +1,48 @@
+# ****************************************************************************************
+
+# LEARNING PAGE CONTENT 
+learning:
+  bootcamps:
+    title:
+      en: 'Bootcamps'
+      fr: 'Bootcamps'
+    description: 
+      fr: "Nos bootcamps sont conçus pour s’étaler sur une période de 5 jours.<br/>
+Chacun de ces bootcamps mobilise et suppose de maîtriser les notions et concepts abordés dans le précédent.<br/>
+Deux sessions annuelles sont organisées en physique à 42 et encadrées par des étudiants de l’association. (Juin / Novembre)"
+      en: "Our bootcamps are conceived to span on 5 consecutive days.<br/>
+Each bootcamp utilizes the knowledge and experience gained in the previous one, and as such, supposes to be made in order.<br/>
+We organize two annual sessions in the clusters of 42Paris, under the supervision of volunteering students of the association."
+    python:
+      title:
+        fr: "Bootcamp Python"
+        en: "Python Bootcamp"
+      description: 
+        fr: "Niveau : Débutant<br/><br/>
+Découverte du langage Python, du paradigme objet, et des bibliothèques essentielles pour aborder en confiance le Machine Learning."
+        en: "Level : Beginner<br/><br/>
+Discovery of Python, object-oriented programming paradigm, and relevant libraries to get ready for Machine Learning."
+    ml:
+      title:
+        fr: "Bootcamp Apprentissage Automatique ('Machine Learning')"
+        en: "Machine Learning Bootcamp"
+      description:
+        fr: "Niveau : Intermédiaire<br/><br/>Faîtes vos premiers pas dans l’apprentissage automatique !"
+        en: "Level: Intermediate<br/><br/>Get started with Machine Learning !"
+    dl:
+      title:
+        fr: "Bootcamp Apprentissage profond ('Deep Learning')"
+        en: "Deep Learning Bootcamp"
+      description:
+        fr: "En cours de développement"
+        en: "Work in progress"
+  other_resources:
+    title:
+      fr: "Autres ressources"
+      en: "Other learning resources"
+    description:
+      fr: ""
+      en: ""
+# // LEARNING PAGE CONTENT 
+
+# ****************************************************************************************

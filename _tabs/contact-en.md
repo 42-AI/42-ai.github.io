@@ -5,15 +5,9 @@ icon: fas fa-at
 order: 5
 toc: true
 layout: post
-lang: fr
+lang: en
+title: Contact
 permalink: /contact
 display_metadata: False
-title: Contact
+
 ---
-
-## Mails
-
-- contact@42ai.fr
-- president@42ai.fr
-- secretaire@42ai.fr
-- partenariats@42ai.fr

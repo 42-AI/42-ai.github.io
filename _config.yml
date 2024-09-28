@@ -6,7 +6,7 @@ theme: jekyll-theme-chirpy
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: fr-FR
+lang: fr
 
 # Change to your timezone › https://kevinnovak.github.io/Time-Zone-Picker
 timezone: Europe/Paris
@@ -18,10 +18,10 @@ title: 42 Artificial Intelligence # the main title
 
 tagline: # it will display as the subtitle
 
-description: >- # used by seo meta and the atom feed
-  Free learning resources for python, machine learning and deep learning;
-  artificial intelligence;ai;code;ml;dl;models;students;bootcamps;education;llm;generative ai;
-  research;non-profit;association;organization;since 2017;42AI;42 Artificial Intelligence;
+description: # used by seo meta and the atom feed 
+  fr: DESCRIPTION EN FR
+  en: Free learning resources for python, machine learning and deep learning;
+
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
@@ -100,11 +100,11 @@ theme_mode: # [light | dark]
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: 'https://github.com/42-AI/assets/blob/main/public/logo/logo_bg_white_upped.png?raw=true'
+avatar: '/assets/img/logo/logo_bg_white.png'
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
-social_preview_image: 'https://github.com/42-AI/assets/blob/main/public/logo/logo_bg_white_upped.png?raw=true'
+social_preview_image: '/assets/img/logo/logo_bg_white.png'
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -208,13 +208,16 @@ compress_html:
     envs: [development]
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
+  # Uncommented otherwise build fail because of Polyglot
+  # - "*.gem"
+  # - "*.gemspec"
+  # - "*.config.js"
+  # //Uncommented otherwise build fail because of Polyglot
+  - .github
   - docs
   - tools
   - README.md
   - LICENSE
-  - "*.config.js"
   - package*.json
 
 jekyll-archives:
@@ -225,3 +228,16 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# Polyglot gem
+plugins:
+  - jekyll-polyglot
+
+# Polyglot
+languages: ["en", "fr"]
+default_lang: "fr"
+exclude_from_localization: ["javascript", "images", "css", "public"]
+parallel_localization: true
+lang_from_path: true
+whitelist:
+  - jekyll-redirect-from

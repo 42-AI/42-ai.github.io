@@ -4,6 +4,10 @@ order: 3
 toc: true
 layout: post
 title:  Équipe
+lang: fr
+permalink: /team
+display_metadata: False
+
 ---
 
 ### 2024 - 2025

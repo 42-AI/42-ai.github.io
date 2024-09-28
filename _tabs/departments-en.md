@@ -3,10 +3,10 @@
 # layout: page
 icon: fas fa-robot
 order: 3
-title: Pôles
+title: Departments
 layout: post
 toc: true
-lang: fr
+lang: en
 permalink: /departments
 display_metadata: False
 description:
@@ -14,19 +14,14 @@ description:
     fr: Les pôles sont les entités fonctionnelles de 42AI
 ---
 
-
-{% assign template_variables = site.data.locales["tabs"]['departments'] %}
-{% assign lang = page.lang %}
-
-{{ template_variables.intro[lang] }}
+L'association est composée de pôles thématiques et fonctionne selon une organisation décentralisée. 
 
 
-### {{template_variables.pedago.title[lang]}}
+### Pôle Pédagogie
 
-> {{template_variables.pedago.people}}
->
->
-> <a href="mailto:{{template_variables.pedago.contact}}"><span style="float: right">{{template_variables.pedago.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
+| Responsables | | Contact |
+|--------------|-----:|-----------:|
+Amir Mahla, Mathieu Perez&emsp;&emsp;|  | <a href="mailto:pedago@42ai.fr">pedago@42ai.fr&emsp;<i class="fas fa-envelope"></i></a>
 
 Le pôle pédago oeuvre à maintenir les contenus existants et à en développer de nouveaux, en partenariat avec les étudiants. 
 
