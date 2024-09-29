@@ -24,7 +24,7 @@
 
 {% if update_list.size > 0 %}
   <section id="access-lastmod">
-    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.lastmod -}}</h2>
+    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.lastmod -}}<img style="margin: 0px auto 5px 5px" width="12px" src="/assets/img/corner.png"/></h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
         {% assign index = item | split: '::' | last | plus: 0 %}
