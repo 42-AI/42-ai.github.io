@@ -1,5 +1,6 @@
 ## Template › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/advanced-usage.md#setting-author-url
 # -------------------------------------
+
 # {author_id}:
 #   name: {full name}
 #   twitter: {twitter_of_author}
@@ -10,3 +11,8 @@ maperez42:
   name: Mathieu Perez
   twitter: maperez42
   url: https://github.com/maperez42/
+
+# If multiple authors, or to override default 42AI author  : 
+# authors: [<author_id1>,<author_id2>...]
+# See https://chirpy.cotes.page/posts/write-a-new-post/#author-information
+authors: [maperez42]

@@ -1,0 +1,418 @@
+# ****************************************************************************************
+# TEAM PAGE CONTENT
+
+current_team:
+  mandate: 2024
+  bureau: 
+    fr: 'Bureau'
+    en: 'Board members'
+    president:
+      title:
+        en: 'President'
+        fr: 'Président'
+      person: 
+        name: 'Mathieu Perez'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/maperez.png
+        42login: maperez
+    tresorier:
+      title:
+        en: 'Vice-President, Treasurer'
+        fr: 'Vice-Président, Trésorier'
+      person: 
+        name: 'Amir Mahla'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: amahla
+    secretaire:
+      title:
+        en: 'Vice-President, General Secretary'
+        fr: 'Vice-Présidente, Secrétaire Générale'
+      person: 
+        name: 'Camille Truchot'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: ctruchot
+    secretaire2:
+      title:
+        en: '2nd Secretary General'
+        fr: 'Secrétaire Général adjoint'
+      person: 
+        name: 'Joan Bondri'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: jbondri
+  lab:
+    title:
+      en: 'Head of the AI Lab'
+      fr: 'Responsable du Lab IA'
+    person: 
+      name: 'Jung-moo Cheon'
+      git:  
+      linkedin:
+      twitter: 
+      description: 
+      photo: assets/img/members/empty.png
+      42login: cjung-mo
+  media: 
+    title:
+      en: 'Head of the Media department'
+      fr: 'Responsable du pôle Média'
+    person: 
+      name: 'Tatiana Komaristaia'
+      git:  
+      linkedin:
+      twitter: 
+      description: 
+      photo: assets/img/members/empty.png
+      42login: tkomaris
+  helpers:
+    maxence:
+      name: 'Maxence'
+      git:  
+      linkedin:
+      twitter: 
+      description: 
+      photo: assets/img/members/empty.png
+      42login: 
+    valentine:
+      name: 'Valentine Fleith'
+      git:  
+      linkedin:
+      twitter: 
+      description: 
+      photo: assets/img/members/empty.png
+      42login: 
+# ********************************************
+# 2022 ALUMNI
+# ********************************************
+alumni:
+  2022:
+    president:
+      title:
+        en: 'President'
+        fr: 'Président'
+      person: 
+        name: 'Quentin Feuillade--Montixi '
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Luc Lenôtre'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp2:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Guillaume Sallé'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    tresorier:
+      title:
+        en: 'Treasurer'
+        fr: 'Trésorier'
+      person: 
+        name: 'Alexandre Gilmet'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    secretaire:
+      title:
+        en: 'Secretary'
+        fr: 'Secrétaire'
+      person: 
+        name: 'Owen Roberts'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+# ********************************************
+# 2021 ALUMNI
+# ********************************************
+  2021:
+    president:
+      title:
+        en: 'President'
+        fr: 'Président'
+      person: 
+        name: 'Louis Develle'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Joep Barmentlo'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp2:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Quentin Feuillade--Montixi'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    tresorier:
+      title:
+        en: 'Treasurer'
+        fr: 'Trésorier'
+      person: 
+        name: 'Deya Berger'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    secretaire:
+      title:
+        en: 'Secretary'
+        fr: 'Secrétaire'
+      person: 
+        name: 'Luc Lenôtre'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+# ********************************************
+# 2020 ALUMNI
+# ********************************************
+  2020:
+    president:
+      title:
+        en: 'President'
+        fr: 'Président'
+      person: 
+        name: 'Pierre Peigné'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Présidente'
+      person: 
+        name: 'Jehanne Dussert'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp2:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Nathan Lafarge'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    tresorier:
+      title:
+        en: 'Treasurer'
+        fr: 'Trésorier'
+      person: 
+        name: "Béatrice M'Bark"
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    secretaire:
+      title:
+        en: 'Secretary'
+        fr: 'Secrétaire'
+      person: 
+        name: 'Matthieu David'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+# ********************************************
+# 2018 ALUMNI
+# ********************************************
+  2018:
+    president:
+      title:
+        en: 'President'
+        fr: 'Président'
+      person: 
+        name: 'Amric Trudel'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Fahd El Mazouni'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    tresorier:
+      title:
+        en: 'Treasurer'
+        fr: 'Trésorier'
+      person: 
+        name: "Charles-Édouard Fatrane"
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    secretaire:
+      title:
+        en: 'Secretary'
+        fr: 'Secrétaire'
+      person: 
+        name: 'Anne-Laure Vacher'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+# ********************************************
+# 2017 ALUMNI
+# ********************************************
+  2017:
+    president:
+      title:
+        en: 'President'
+        fr: 'Président'
+      person: 
+        name: 'Guillaume Maugard'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Fahd El Mazouni'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    vp2:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Jérôme Desmares'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login:
+    vp3:
+      title:
+        en: 'Vice-President'
+        fr: 'Vice-Président'
+      person: 
+        name: 'Jules Cahon'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    tresorier:
+      title:
+        en: 'Treasurer'
+        fr: 'Trésorier'
+      person: 
+        name: "Charles-Édouard Fatrane"
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 
+    secretaire:
+      title:
+        en: 'Secretary'
+        fr: 'Secrétaire'
+      person: 
+        name: 'Alexandra Petitjean'
+        git:  
+        linkedin:
+        twitter: 
+        description: 
+        photo: assets/img/members/empty.png
+        42login: 

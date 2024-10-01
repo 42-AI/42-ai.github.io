@@ -14,50 +14,35 @@ description:
     fr: Les pôles sont les entités fonctionnelles de 42AI
 ---
 
-
 {% assign template_variables = site.data.locales["tabs"]['departments'] %}
 {% assign lang = page.lang %}
 
 {{ template_variables.intro[lang] }}
 
-
 ### {{template_variables.pedago.title[lang]}}
 
-> {{template_variables.pedago.people}}
->
->
-> <a href="mailto:{{template_variables.pedago.contact}}"><span style="float: right">{{template_variables.pedago.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
+> **{{template_variables.pedago.people}}**
+> <a href="mailto:{{template_variables.pedago.contact}}"><span style="float:right">{{template_variables.pedago.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
 
-Le pôle pédago oeuvre à maintenir les contenus existants et à en développer de nouveaux, en partenariat avec les étudiants. 
+{{template_variables.pedago.description[lang]}}
 
-### Pôle Éthique et Juridique 
+### {{template_variables.ethics.title[lang]}}
 
-| Responsable | | Contact |
-|--------------|-----:|-----------:|
-Camille Truchot&emsp;&emsp;| | <a href="mailto:ethics@42ai.fr">ethics@42ai.fr&emsp;<i class="fas fa-envelope"></i></a>
+> **{{template_variables.ethics.people}}**
+> <a href="mailto:{{template_variables.ethics.contact}}"><span style="float:right">{{template_variables.ethics.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
 
-Le pôle Éthique et Juridique se concentre sur les problématiques d'insécurité juridique et d'éthique qui naissent de l'émergence des IA génératives et de leur démocratisation. 
+{{template_variables.ethics.description[lang]}}
 
-### Pôle Lab IA 
+### {{template_variables.lab.title[lang]}}
 
-| Responsable | | Contact |
-|--------------|-----:|-----------:|
-Jungmoo Cheon&emsp;&emsp;| | <a href="mailto:lab@42ai.fr">lab@42ai.fr&emsp;<i class="fas fa-envelope"></i></a>
+> **{{template_variables.lab.people}}**
+> <a href="mailto:{{template_variables.lab.contact}}"><span style="float:right">{{template_variables.lab.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
 
-Le Lab est l'espace d'expérimentation de 42AI.  
+{{template_variables.lab.description[lang]}}
 
-> Pour l'année en cours, les ressources du lab sont consacrées à la création du Bootcamp Deep Learning, qui viendra s'ajouter aux Bootcamps Python et Machine Learning existants.
-> 
-> Si vous souhaitez participer à la création de ce bootcamp, contactez Jungmoo. 
-{: .prompt-warning }
+### {{template_variables.media.title[lang]}}
 
-À terme, nous espérons pouvoir dôter le lab de ressources pour permettre aux étudiants de nous proposer leurs projets et de les accompagner dans leur réalisation. 
+> **{{template_variables.media.people}}**
+> <a href="mailto:{{template_variables.media.contact}}"><span style="float:right">{{template_variables.media.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
 
-
-### Pôle Média et Création
-
-| Responsable | | Contact |
-|--------------|-----:|-----------:|
-Tatiana Komaristaia&emsp;&emsp;| | <a href="mailto:media@42ai.fr">media@42ai.fr&emsp;<i class="fas fa-envelope"></i></a>
-
-Le pôle Média est une expérimentation visant à la production de contenus audiovisuels comme des podcasts, des entretiens ... 
+{{template_variables.media.description[lang]}}

@@ -1,6 +1,6 @@
 <!-- The trending tags list -->
 
-{% assign MAX = 6 %}
+{% assign MAX = 10  %}
 
 {% assign size_list = '' | split: '' %}
 {% assign tag_list = '' | split: '' %}
@@ -35,12 +35,15 @@
 
 {% if trending_tags.size > 0 %}
   <section>
-    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.trending_tags -}}</h2>
+    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.trending_tags -}}<img style="margin: 0px auto 5px 5px" width="12px" src="/assets/img/corner.png"/></h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       {% for tag_name in trending_tags %}
-        {% assign url = tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' %}
-        <a class="post-tag btn btn-outline-primary" href="{{ url | relative_url }}">{{ tag_name }}</a>
-      {% endfor %}
+        <!-- Ajout 42AI -->
+         {% if tag_name != '42AI' %}
+          {% assign url = tag_name | slugify | url_encode | prepend: '/tags/' | append: '/' %}
+          <a class="post-tag btn btn-outline-primary" href="{{ url | relative_url }}">{{ tag_name }}</a>
+         {% endif %} 
+    {% endfor %}
 
     </div>
     <!-- Modif / ajouts 42AI -->

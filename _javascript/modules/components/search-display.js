@@ -3,8 +3,8 @@
  */
 
 const btnSbTrigger = document.getElementById('sidebar-trigger');
-const btnSearchTrigger = document.getElementById('search-trigger');
-const btnCancel = document.getElementById('search-cancel');
+// const btnSearchTrigger = document.getElementById('search-trigger');
+// const btnCancel = document.getElementById('search-cancel');
 const content = document.querySelectorAll('#main-wrapper>.container>.row');
 const topbarTitle = document.getElementById('topbar-title');
 const search = document.getElementById('search');

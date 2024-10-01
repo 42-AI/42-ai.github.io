@@ -5,6 +5,8 @@ layout: page
 
 {% include lang.html %}
 
+<!-- Modif 42AI Blog -->
+{% if page.url != 'posts' and page.url != 'posts-en' %}
 <div id="page-tag">
   <h1 class="ps-lg-2">
     <i class="fa fa-tag fa-fw text-muted"></i>
@@ -21,4 +23,8 @@ layout: page
     {% endfor %}
   </ul>
 </div>
+{% else %}
 
+Blog mother fucker
+
+{% endif %}

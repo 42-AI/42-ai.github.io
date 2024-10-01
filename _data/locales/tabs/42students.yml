@@ -22,8 +22,9 @@ students:
       fr: "L'inscription à notre serveur Discord suffit pour être membre adhérent.<br/><br/>
           Vous pouvez rejoindre notre serveur à partir du 
           [portail des associations de 42 sur Discord](https://discord.com/channels/887850395697807362/887850396314398720) 👈"
-      en: "Being a member of 42AI is possible for any registered student in 42Paris who 
-      is neither freezed, nor alumnized nor blackholed."
+      en: "Being registered on our Discord server sufices to be a member of 42AI.<br/><br/>
+          You can join our server on the  
+          [42's Associations portal on Discord](https://discord.com/channels/887850395697807362/887850396314398720) 👈"
   how_contribution:
     title:
       fr: "Comment contribuer à 42AI ?"
@@ -38,6 +39,25 @@ Contactez-nous pour en discuter et voir comment nous pouvons vous aider à concr
 - by being a ***volunteer*** to help with the organization of events such as conferences or bootcamps.<br/>
 - by taking part in the creation of a learning project either as ***a contributor*** or ***a tester***.<br/><br/>
 Any initiative is highly welcome ! Contact us to discuss your project and how we can help you with it !"
+  blog_contribution:
+    title:
+      fr: "Contribuer en publiant un billet de blog"
+      en: "Contributing by publishing a blog article"
+    text:
+      fr: "**Vous souhaitez nous parler d'une publication récente et de son impact ? Vous venez de tester un nouveau modèle et voulez partager vos impressions ?
+       Vous avez un projet perso qui vous tient au coeur et que vous souhaitez révéler au monde entier ?**
+<br/><br/>
+Étudiants et membres de 42AI, cet espace est le vôtre ! Vous pouvez y exprimer et partager vos idées et opinions, à propos du sujet de votre choix relatif à l'IA. 
+<br/><br/>
+Nous sommes toujours ouverts aux contributions, et créer un article est aussi simple que de faire une PR et d'écrire un fichier Markdown. Retrouvez tous les détails pour poster une contribution sur <a href='https://github.com/42-AI/42-ai.github.io/blob/main/_posts/README.md'>le README dédié</a>. 
+      "
+      en: "**Want to discuss a recent paper and its impact on the field ? Tell us more about a super tool you’ve just found out ? 
+      Share your insights on the future of AI or express your concerns on AI regulatory frameworks or whatever other topic ? …**
+<br/><br/>
+Students and members of 42AI, this space is for you to express and share all your thoughts and ideas about whatever topic related to AI you want to discuss !
+<br/><br/>
+We are always open to contributions, and it’s as simple as making a PR and writing a Markdown file. Find out all the details to post a new contribution in <a href='https://github.com/42-AI/42-ai.github.io/blob/main/_posts/README.md'>the dedicated README</a>.
+"
 
 # //STUDENT PAGE CONTENT 
 # ****************************************************************************************

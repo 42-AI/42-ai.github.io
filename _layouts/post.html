@@ -38,7 +38,7 @@ tail_includes:
           {% include datetime.html date=page.last_modified_at tooltip=true lang=lang %}
         </span>
       {% endif %}
-      <!-- 42AI modif : seules pages type POST permettent d'afficher le TOC selon structure h2,h3,h4 -->
+      <!-- //42AI modif -->
 
       {% if page.image %}
         {% capture src %}src="{{ page.image.path | default: page.image }}"{% endcapture %}
@@ -140,12 +140,12 @@ tail_includes:
 
   {% endif %}
 
+  <!-- 42AI modif -->
   {% if page.display_metadata == True  %}
     <div
       class="
         post-tail-bottom
-        d-flex justify-content-between align-items-center mt-5 pb-2
-      "
+        d-flex justify-content-between align-items-center mt-5 pb-2"
     >
       <div class="license-wrapper">
         {% if site.data.locales[lang].copyright.license.template %}
@@ -168,8 +168,5 @@ tail_includes:
 
   <!-- Fin Modif 42AI -->
   {% endif %}
-
-
-
 
 </article>

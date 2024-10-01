@@ -7,70 +7,97 @@ title:  Équipe
 lang: fr
 permalink: /team
 display_metadata: False
-
+description: 
+    en: Meet the team and the people who contributed to building 42AI since 2017
+    fr: Rencontrez l'équipe et tous ceux qui ont contribué à 42AI depuis 2017
 ---
 
-### 2024 - 2025
+{% assign t_vars = site.data.locales["tabs"]['team'] %}
+<!-- t_vars for team_variables -->
+{% assign lang = page.lang %}
+{% assign page.description = t_vars.description[lang] %}
 
-- Bureau 
+{% assign current_team = t_vars['current_team'] %}
 
-| ![Alt text](/assets/img/members/maperez42.png){: width="32" height="32" } | **Président**  | Mathieu Perez |<a href="https://github.com/maperez42" target=_blank><i class="fab fa-github"></i></a>|<a href="mailto:mathieu.perez@42ai.fr,president@42ai.fr"><i class="fas fa-envelope"></i></a>|<a href="https://www.linkedin.com/in/mathieujperez/" target=_blank><i class="fab fa-linkedin"></i></a>
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } |  **Vice-Président, Trésorier** | Amir Mahla
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Présidente, Secrétaire Général**| Camille Truchot 
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Secrétaire adjoint**| Joan Bondri
+<h2>{{current_team.mandate}}</h2>
 
-- Responsables de pôles
+<div class="column" >
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.bureau.president.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">{{current_team.bureau.president.person.name}}</div>
+        <div class="col-5 col-xs-12"><span>{{current_team.bureau.president.title[lang]}}</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.bureau.president.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.bureau.president.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.bureau.president.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.bureau.tresorier.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">{{current_team.bureau.tresorier.person.name}}</div>
+        <div class="col-5 col-xs-12"><span>{{current_team.bureau.tresorier.title[lang]}}</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.bureau.tresorier.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.bureau.tresorier.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.bureau.tresorier.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.bureau.secretaire.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">{{current_team.bureau.secretaire.person.name}}</div>
+        <div class="col-5 col-xs-12"><span>{{current_team.bureau.secretaire.title[lang]}}</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.bureau.secretaire.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.bureau.secretaire.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.bureau.secretaire.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.bureau.secretaire2.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">{{current_team.bureau.secretaire2.person.name}}</div>
+        <div class="col-5 col-xs-12"><span>{{current_team.bureau.secretaire2.title[lang]}}</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.bureau.secretaire2.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.bureau.secretaire2.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.bureau.secretaire2.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div>
+    </div> -->
+</div>
+<hr/>
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.lab.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">{{current_team.lab.person.name}}</div>
+        <div class="col-5 col-xs-12"><span>{{current_team.lab.title[lang]}}</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.lab.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.lab.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.lab.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.media.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">{{current_team.media.person.name}}</div>
+        <div class="col-5 col-xs-12"><span>{{current_team.media.title[lang]}}</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.media.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.media.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.media.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
+<hr/>
 
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Pôle Média et Création** | Tatiana Komaristaia
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Lab IA** | Jung-moo Cheon
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Assistant sur le Lab** | Sungyong Cho
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Pôle Éthique et Juridique**| Camille Truchot
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Pôle Pédagogie**| Amir Mahla, Mathieu Perez
+<h2>Alumni</h2>
 
-- Volontaires 
-
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | Maxence  
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | Valentine
-
-## Alumni 
-
-### 2022 
-
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Président**  | Quentin Feuillade--Montixi |<a href="https://github.com/" target=_blank><i class="fab fa-github"></i></a>|<a href=""><i class="fas fa-envelope"></i></a>|<a href="https://www.linkedin.com/in/" target=_blank><i class="fab fa-linkedin"></i></a>
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } |  **Vice-Président** | Luc Lenôtre
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Guillaume Sallé
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Trésorier**| Alexandre Gilmet
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Secrétaire**| Owen Roberts
-
-
-### 2021 
-
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Président**  | Louis Develle |<a href="https://github.com/" target=_blank><i class="fab fa-github"></i></a>|<a href=""><i class="fas fa-envelope"></i></a>|<a href="https://www.linkedin.com/in/" target=_blank><i class="fab fa-linkedin"></i></a>
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } |  **Vice-Président** | Joep Barmentlo
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Quentin Feuillade--Montixi 
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Trésorière**| Deya Berger
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Secrétaire**| Luc Lenôtre
-
-### 2020 
-
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Président**  | Pierre Peigné |<a href="https://github.com/" target=_blank><i class="fab fa-github"></i></a>|<a href=""><i class="fas fa-envelope"></i></a>|<a href="https://www.linkedin.com/in/" target=_blank><i class="fab fa-linkedin"></i></a>
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } |  **Vice-Présidente** | Jehanne Dussert
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Nathan Lafarge 
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Trésorière**| Béatrice M'Bark
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Secrétaire**| Matthieu David
-
-### 2018
-
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Président**  | Amric Trudel |<a href="https://github.com/" target=_blank><i class="fab fa-github"></i></a>|<a href=""><i class="fas fa-envelope"></i></a>|<a href="https://www.linkedin.com/in/" target=_blank><i class="fab fa-linkedin"></i></a>
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Fahd El Mazouni
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Trésorier**| Charles Édouard Fatrane
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Secrétaire**| Anne Laure Vacher
-
-### 2017
-
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Président**  | Guillaume Maugard |<a href="https://github.com/" target=_blank><i class="fab fa-github"></i></a>|<a href=""><i class="fas fa-envelope"></i></a>|<a href="https://www.linkedin.com/in/" target=_blank><i class="fab fa-linkedin"></i></a>
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Jérôme Desmares
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Fahd El Mazouni
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Vice-Président**| Jules Cahon
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Trésorier**| Charles Édouard Fatrane
-| ![Alt text](/assets/img/members/empty_photo.png){: width="32" height="32" } | **Secrétaire**| Alexandra Petitjean
+<p>Section en construction</p>
