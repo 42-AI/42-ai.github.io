@@ -1,8 +1,8 @@
 ---
 title: Conférence "AI in Paris" x 42E x Paris AI Society 🍕
 date: 2024-06-18 19:00:00 +/-TTTT
-categories: [Événements,Collaborations,Entrepreneuriat,Conférences]
-tags: [Événements,Collaborations,Entrepreneuriat,Conférences]     # TAG names should always be lowercase
+categories: [Conférences,AI_Entrepreneur]
+tags: [Événements,Collaborations,AI_Entrepreneur,42AI] # TAG names should always be lowercase
 description: "Startup Pizza Night AI Special"
 image:
   path: /assets/img/events/aiInParis.png

@@ -18,18 +18,27 @@ Interested in knowing more ? Find out all the relevant information in the <a hre
     gh_link: 
       fr: "42AI sur GitHub"
       en: "42AI on GitHub"
+      url: https://github.com/42-ai
+
     42studs_link: 
       fr: "Étudiants de 42"
       en: "42 Students"
+      url: /42students
+
     contact_link: 
       fr: "Contactez-nous !"
       en: "Contact us !"
+      url: mailto:contact@42ai.fr
+
     py_btcmp_link:
       fr: "Bootcamp Python"
       en: "Python Bootcamp"
+      url: https://github.com/42-AI/bootcamp_python
     ml_btcmp_link: 
       fr: "Bootcamp Machine Learning"
       en: "Machine Learning Bootcamp"
+      url: https://github.com/42-AI/bootcamp_machine-learning
+
   last_activity: 
       fr: "Dernières actualités"
       en: "Last news"

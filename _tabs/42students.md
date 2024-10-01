@@ -15,7 +15,7 @@ description:
 {% assign template_variables = site.data.locales["tabs"]['42students']['students'] %}
 {% assign lang = page.lang %}
 
-![42AI banniere](/assets/img/banners/banner_black_00.png){: width="100%";height="auto" }
+<!-- ![42AI banniere](/assets/img/banners/banner_black_00.png){: width="100%";height="auto" } -->
 
 ## {{template_variables.who_adhesion.title[lang] }}
 
@@ -29,8 +29,7 @@ description:
 
 > {{template_variables.how_contribution.text[lang] }}
 
-## TODO : BLOG POST
+## {{template_variables.blog_contribution.title[lang] }}
 
-## TODO : ORGA EVENT 
+> {{template_variables.blog_contribution.text[lang] }}
 
-## TODO : Cursus 42 

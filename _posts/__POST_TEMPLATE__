@@ -1,0 +1,63 @@
+---
+# ************************************************************************
+# FrontMatter
+# How to create your post, see : _posts/README.md
+# ************************************************************************
+# DO NOT EDIT THE FOLLOWING LINES
+layout: post
+categories: [Blog]
+is_blog_post: True
+# ************************************************************************
+# EDIT THE FOLLOWING LINES
+
+# // REQUIRED date : 2024-06-13 13:37:00 +/-TTTT 
+    # Only modify the date and hours elements, leave the +/-TTTT unchanged.
+date: 2024-07-13 13:37:00 +/-TTTT
+
+# Author : will default to 42AI if not filled. 
+author: 
+
+# Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
+    # If an existing tag works with your article, please use it in priority. 
+    # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
+tags: ['blog', '42AI', ]
+
+# // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
+description: description
+
+# Image: the illustration image that will accompany your article on links and in the article itself.
+    # Images should be of dimensions ratio 3:1
+    # Images can point to external urls
+    # If you don't have an image, leave this item unchanged.
+    # You can place your custom image in the `/assets/img/blog/` folder. If you do, don't forget to edit the following
+image:
+    path: /assets/img/banners/banner_post_adm.png
+
+# // REQUIRED Title : Keep it short, catchy and consistent with your article   
+title: 
+---
+
+Your Markdown content HERE
+
+<!-- You can access the FrontMatter variables through page.<<attribute>> -->
+<!-- EX: {{ page.author }} -->
+
+<!-- 
+    Before PUSHING, don't forget to rename this file 
+    using the following convention:
+
+    YYYY-MM-dd-<blog>-<your 42login>.md
+
+    ex: 2024-03-02-blog-jbondri.md
+ 
+ -->
+
+
+
+
+
+
+
+
+
+

@@ -8,32 +8,37 @@ lang: fr
 permalink: /learning
 display_metadata: False
 description:
-    en: By 42students, for students !
-    fr: Créé par les étudiants de 42, pour les étudiants !
+    en: By 42students, for anyone willing to learn !
+    fr: Créé par les étudiants de 42, pour tous !
 ---
 
-{% assign template_variables = site.data.locales["tabs"]['learning']['learning'] %}
+{% assign learning_template_variables = site.data.locales["tabs"]['learning']['learning'] %}
 
 {% assign lang = page.lang %}
-{% assign page.description = template_variables.description[lang] %}
+{% assign page.description = learning_template_variables.description[lang] %}
 
-## {{template_variables.bootcamps.title[lang]}}
+## {{learning_template_variables.bootcamps.title[lang]}}
 
-> {{ template_variables.bootcamps.description[lang]}}
-{: .prompt-info }
+{{ learning_template_variables.bootcamps.description[lang]}}
 
-#### 1. {{template_variables.bootcamps.python.title[lang]}}
+#### 1. {{learning_template_variables.bootcamps.python.title[lang]}}
 
-> {{ template_variables.bootcamps.python.description[lang] }}
+{{ learning_template_variables.bootcamps.python.description[lang] }}
 
-#### 2. {{template_variables.bootcamps.ml.title[lang]}}
+> <a href='{{learning_template_variables.bootcamps.python.url}}'>{{learning_template_variables.bootcamps.python.url}}</a>
 
-> {{ template_variables.bootcamps.ml.description[lang] }}
+#### 2. {{learning_template_variables.bootcamps.ml.title[lang]}}
 
-#### 3. {{template_variables.bootcamps.dl.title[lang]}}
+{{ learning_template_variables.bootcamps.ml.description[lang] }}
 
-> {{ template_variables.bootcamps.dl.description[lang] }}
+> <a href='{{learning_template_variables.bootcamps.ml.url}}'>{{learning_template_variables.bootcamps.ml.url}}</a>
 
-## {{template_variables.other_resources.title[lang]}}
+#### 3. {{learning_template_variables.bootcamps.dl.title[lang]}}
 
-TODO
+{{ learning_template_variables.bootcamps.dl.description[lang] }}
+
+> <a href='{{learning_template_variables.bootcamps.dl.url}}'>{{learning_template_variables.bootcamps.dl.url}}</a>
+
+## {{learning_template_variables.other_resources.title[lang]}}
+
+Section en construction

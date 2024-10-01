@@ -165,3 +165,12 @@ The polyglot gem for Chirpy works as a charm, but requires a few adaptations. Im
 Then 
 
 ```bundle exec jekyll serve```
+
+## TODO
+
+- TAB on images
+- CSS color adjustments on dark theme for higher contrast on some elements
+- ~~README contribution blog~~
+- README for `TABS`
+- Reorganize messed up alumni variables and create alumni section on team page
+- Refacto to prevent multiple files in tabs folder

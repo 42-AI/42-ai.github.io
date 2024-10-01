@@ -20,7 +20,7 @@ ethics:
     fr: "Pôle Éthique et Juridique"
     en: "Ethics and Legal Department"
   people: "Camille Truchot"
-  contact: "ethics@42ai.fr"
+  contact: "ethique@42ai.fr"
   description: 
     fr: "Le pôle Éthique et Juridique se concentre sur les problématiques d’insécurité juridique
      et d’éthique qui naissent de l’émergence des IA génératives et de leur démocratisation."
@@ -34,14 +34,16 @@ lab:
   people: "Jung-moo Cheon"
   contact: "lab@42ai.fr"
   description: 
-    fr: "Le Lab est l’espace d’expérimentation de 42AI.<br/>
-Pour l’année en cours, les ressources du lab sont consacrées à la création du Bootcamp Deep Learning,
- qui viendra s’ajouter aux Bootcamps Python et Machine Learning existants.<br/>
-Si vous souhaitez participer à la création de ce bootcamp, contactez Jungmoo.<br/>
+    fr: "Le Lab est l’espace d’expérimentation de 42AI.<br/><br/>
+Pour l’année en cours, les ressources du lab sont consacrées à la création du 
+<a href='https://github.com/42-AI/bootcamp_deep-learning'>Bootcamp Deep Learning</a>,
+ qui viendra s’ajouter aux Bootcamps Python et Machine Learning existants.<br/><br/>
+Si vous souhaitez participer à la création de ce bootcamp, contactez Jung-moo.<br/><br/>
 À terme, nous espérons pouvoir dôter le lab de ressources pour permettre aux étudiants 
 de nous proposer leurs projets et de les accompagner dans leur réalisation."
     en: "The Lab is the experimentation space of 42AI.<br/>
-For the current year, resources of the lab are exceptionally dedicated to the creation of the Deep Learning Bootcamp,
+For the current year, resources of the lab are exceptionally dedicated to the creation of 
+<a href='https://github.com/42-AI/bootcamp_deep-learning'>the Deep Learning Bootcamp</a>,
 which will add to the existing Python and Machine Learning Bootcamps.<br/>
 If you want to contribute to the creation of this bootcamp, feel free to get in touch with Jung-moo!<br/>
 In the longer term, we are planning to get dedicated computing resources for the lab and allow students to 
