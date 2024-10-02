@@ -35,7 +35,9 @@
 
 {% if trending_tags.size > 0 %}
   <section>
-    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.trending_tags -}}<img style="margin: 0px auto 5px 5px" width="12px" src="/assets/img/corner.png"/></h2>
+    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.trending_tags -}}
+      <img style="margin: 0px auto 5px 5px" width="12px" src="/assets/img/corner.png"/>
+    </h2>
     <div class="d-flex flex-wrap mt-3 mb-1 me-3">
       {% for tag_name in trending_tags %}
         <!-- Ajout 42AI -->

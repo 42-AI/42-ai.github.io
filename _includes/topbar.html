@@ -59,6 +59,11 @@
 
 
   <!-- 42AI modif : Removing Useless Searchbar ie d-none class -->
+
+    <button type="button" id="search-trigger" class="btn btn-link d-none">
+      <i class="fas fa-search fa-fw"></i>
+    </button>
+
     <search id="search" class="align-items-center ms-3 ms-lg-0 d-none">
       <i class="fas fa-search fa-fw"></i>
       <input
@@ -70,9 +75,11 @@
         placeholder="{{ site.data.locales[site.active_lang].search.hint | capitalize }}..."
       >
     </search>
-    <button type="button" class="btn btn-link text-decoration-none" id="search-cancel">
+    <button type="button" class="btn btn-link text-decoration-none d-none" id="search-cancel">
       {{- site.data.locales[site.active_lang].search.cancel -}}
     </button>
+    <!-- 42AI modif : Removing Useless Searchbar ie d-none class -->
+
   </div>
 
 

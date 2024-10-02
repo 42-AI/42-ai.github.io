@@ -10,4 +10,6 @@ image:
 
 Une nouvelle version corrigée du bootcamp Machine Learning est disponible ! 
 
-https://github.com/42-AI/bootcamp_machine-learning/releases/tag/version%2Fv5.0.2.post1
+[Retrouvez cette nouvelle version sur la page de la release](https://github.com/42-AI/bootcamp_machine-learning/releases/tag/version%2Fv5.0.2.post1)
+
+L'équipe 42AI
