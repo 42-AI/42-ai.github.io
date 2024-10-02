@@ -97,7 +97,30 @@ description:
             </div> -->
     </div>
 <hr/>
-
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.media.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">Valentine Fleith</div>
+        <div class="col-5 col-xs-12"><span>Volontaire</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.media.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.media.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.media.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
+    <div class="row" style="align-items: center; display:flex; margin-top: 15px">
+        <div class="col-1 col-xs-12"><img src="{{current_team.media.person.photo}}" width=48px/></div>
+        <div class="col-5 col-xs-12">Maxence Bocquel</div>
+        <div class="col-5 col-xs-12"><span>Volontaire</span></div>
+        <!-- <div class="col-2">
+            <span style="display: flex; justify-content: space-evenly">
+                <a href="{{current_team.media.person.github}}"><i class="fab fa-github"></i></a>
+                <a href="{{current_team.media.person.linkedin}}"><i class="fab fa-linkedin"></i></a>
+                <a href="{{current_team.media.person.twitter}}"><i class="fab fa-twitter"></i></a>
+            </span>
+            </div> -->
+    </div>
 <h2>Alumni</h2>
 
 <p>Section en construction</p>

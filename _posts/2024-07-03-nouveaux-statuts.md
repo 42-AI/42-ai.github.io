@@ -11,6 +11,4 @@ is_blog_post: false
 
 Le bureau de l'association a adopté une nouvelle rédaction des statuts de l'asso ! 
 
-
-
 Vous pouvez consulter cette nouvelle version simplifiée [ici](https://github.com/42-AI/legal/tree/main/statuses)

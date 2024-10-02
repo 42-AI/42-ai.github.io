@@ -11,5 +11,7 @@ authors: [maperez42]
 
 Une nouvelle version du bootcamp Python est disponible ! 
 
-<h5><a href="https://github.com/42-AI/bootcamp_python/releases/tag/version%2Fv3.2.0">Release 3.2.0</a></h5>
+<a href="https://github.com/42-AI/bootcamp_python/releases/tag/version%2Fv3.2.0">Release 3.2.0</a>
+
+L'équipe 42AI
 

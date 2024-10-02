@@ -69,18 +69,18 @@ Please make sure you have read and understood the [Chirpy documentation](https:/
 
 ### Logic
 
-#### Site configuration variables : `/locales/`
+#### Site configuration variables : `_data/locales/`
 
 See the following files : 
 
 ```
-/locales/_config.yml
-/locales/authors.yml
-/locales/contact.yml 
-/locales/share.yml
+_data//locales/_config.yml
+_data//locales/authors.yml
+_data//locales/contact.yml 
+_data//locales/share.yml
 <!-- language-dependent template variables -->
-/locales/en.yml
-/locales/fr.yml
+_data//locales/en.yml
+_data//locales/fr.yml
 ```
 #### Site structure : `_tabs/`
 
@@ -88,15 +88,15 @@ The `markdown` files in the `_tabs` folder populate the Menu in the sidebar on t
 
 > See specific README for the `_tabs` folder in [the dedicated file](_tabs/README.md)
 
-These markdown files only contain the templates for the page. The variables for each page are injected into the template. They are stored in the `/locales/tabs/` folder.
+These markdown files only contain the templates for the page. The variables for each page are injected into the template. They are stored in the `_data//locales/tabs/` folder.
 
-#### Site structure content : `_locales/tabs/`
+#### Site structure content : `_data/_locales/tabs/`
 
 All the text from the TABS folder pages, in YAML, kept in one place to facilitate multilingual support and consistency between languages, and be separated from template files. 
 
 One file per tab is enough. If you want to add multilingual support for this tab, you will need to modify this yml file accordingly. 
 
-See example file : `[_locales/tabs/learning.yml](_locales/tabs/learning.yml)
+See example file : `[_locales/tabs/learning.yml](_data/locales/tabs/learning.yml)
 
 #### Site publishing content : `_posts/`
 
@@ -136,9 +136,9 @@ In the current version, 42AI's github page supports two languages : French (defa
 
 The polyglot gem for Chirpy works as a charm, but requires a few adaptations. Important points to take into consideration here are the following :  
 
-- Site global variables per language are accessible at the root of the `locales` folder :
-    - `/locales/fr.yml`
-    - `/locales/en.yml`
+- Site global variables per language are accessible at the root of the `_data/locales` folder :
+    - `_data/locales/fr.yml`
+    - `_data/locales/en.yml`
 
 - For each page you want translated:
     - you need to create a duplicate file in the same folder, adding the `-en` suffix for an english file. 

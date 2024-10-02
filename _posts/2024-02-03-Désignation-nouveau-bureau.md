@@ -9,7 +9,7 @@ image:
 is_blog_post: false
 ---
 
-## 42AI est de retour !
+## 42AI est de retour !!
 
 Au terme d'un travail de préparation de plusieurs semaines, une nouvelle équipe reprend le flambeau de l'association ! 
 
@@ -20,3 +20,4 @@ Plus de détails sur le fonctionnement de l'association sur les pages suivantes 
 - [L'équipe](/team)
 - [Pôles](/departments)
 - [Étudiants de 42](/42students)
+

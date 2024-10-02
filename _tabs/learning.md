@@ -21,19 +21,19 @@ description:
 
 {{ learning_template_variables.bootcamps.description[lang]}}
 
-#### 1. {{learning_template_variables.bootcamps.python.title[lang]}}
+#### 1. {{learning_template_variables.bootcamps.python.title[lang]}} <i style="float:right" class="fab fa-python"></i>
 
 {{ learning_template_variables.bootcamps.python.description[lang] }}
 
 > <a href='{{learning_template_variables.bootcamps.python.url}}'>{{learning_template_variables.bootcamps.python.url}}</a>
 
-#### 2. {{learning_template_variables.bootcamps.ml.title[lang]}}
+#### 2. {{learning_template_variables.bootcamps.ml.title[lang]}} <i style="float:right" class="fas fa-cogs"></i>
 
 {{ learning_template_variables.bootcamps.ml.description[lang] }}
 
 > <a href='{{learning_template_variables.bootcamps.ml.url}}'>{{learning_template_variables.bootcamps.ml.url}}</a>
 
-#### 3. {{learning_template_variables.bootcamps.dl.title[lang]}}
+#### 3. {{learning_template_variables.bootcamps.dl.title[lang]}} <i style="float:right" class="fas fa-layer-group"></i>
 
 {{ learning_template_variables.bootcamps.dl.description[lang] }}
 

@@ -33,11 +33,13 @@
 }
 .hoverable{
   color: #34343c;
+  margin: 40px 15px 15px 15px;
+
 }
 .hoverable:hover{
   transition: 0.5s;
-  font-size: 64px;
-  margin: 5px;
+  font-size: 48px;
+  margin: 25px;
   color: lightslategray
 }
 .hoverable2:hover{
@@ -55,43 +57,31 @@
   <div class="column container" style="border-radius: 0px;">
  
   <!-- TLDR -->
-  <div class="col" style="margin: 25px 15px 50px 15px;">
+  <div class="col" style="margin: 5px 15px 50px 15px;">
+
     <h3>{{42ai_home.welcome[lang]}}</h3>
-      <p class="radjani" style="margin: 15px auto 15px auto;">{{42ai_home.asso_description[lang]}}
-      </p>
-          <p style="width: 80%; margin: 40px 10% 30px 10%; 
-              display: flex; justify-content: space-between;">
-              <a target="_blank" href="https://www.instagram.com/_42AI_/">
-                <i class="hoverable fa-brands fa-instagram fa-2xl"></i>
-              </a>
-  
-              <a target="_blank" href="https://42ai.medium.com/">
-                <i class="hoverable fa-brands fa-medium fa-2xl"></i>
-              </a>
-  
-              <a target="_blank" href="https://www.youtube.com/c/@42AI_Paris/">
-                <i class="hoverable fa-brands fa-youtube fa-2xl"></i>
-              </a>
-  
-              <a target="_blank" href="https://www.linkedin.com/company/42-artificial-intelligence/">
-                <i class="hoverable fa-brands fa-linkedin fa-2xl"></i>
-              </a>
-              
-              <a target="_blank" href="https://x.com/42AI_">
-                <i class="hoverable fa-brands fa-x-twitter fa-2xl"></i>
-              </a>
-  
-              <a target="_blank" href="https://github.com/42-AI">
-                <i class="hoverable fa-brands fa-github fa-2xl"></i>
-              </a>
-  
-              <a target="_blank" href="https://www.facebook.com/42ArtificialIntelligence/">
-                <i class="hoverable fa-brands fa-facebook fa-2xl"></i>
-              </a>
-          </p>
-  
-  
+      <p class="radjani" style="margin: 15px auto 15px auto;">{{42ai_home.asso_description[lang]}}</p>
+    
+    <!-- Social media Icons Links list -->
+      <div class="flex" style="width: 80%; margin: 30px 10% 15px 10%; display: flex;  flex-wrap: wrap; justify-content: space-evenly; text-align: center;">
+
+        <a target="_blank" href="https://github.com/42-AI"><i class="hoverable fa-brands fa-github fa-2xl"></i></a>
+        
+        <a target="_blank" href="https://www.linkedin.com/company/42-artificial-intelligence/"><i class="hoverable fa-brands fa-linkedin fa-2xl"></i></a>
+
+        <a target="_blank" href="https://www.kaggle.com/born2code42ai"><i class="hoverable fa-brands fa-kaggle fa-2xl"></i></a>
+        
+        <a target="_blank" href="https://www.youtube.com/c/@42AI_Paris/"><i class="hoverable fa-brands fa-youtube fa-2xl"></i></a>
+
+        <a target="_blank" href="https://x.com/42AI_"><i class="hoverable fa-brands fa-x-twitter fa-2xl"></i></a>
+
+        <a target="_blank" href="https://www.instagram.com/_42AI_/"><i class="hoverable fa-brands fa-instagram fa-2xl"></i></a>
+
+        <a target="_blank" href="https://www.facebook.com/42ArtificialIntelligence/"><i class="hoverable fa-brands fa-facebook fa-2xl"></i></a>
+
       </div>
+    <!-- //Social media Icons Links list -->
+</div>
   <!-- // TLDR -->
 
   
@@ -101,7 +91,11 @@
     <!-- QUICK ACCESS -->
      <div style="margin: 25px 15px 15px 15px;">
        
-        <h3>{{ 42ai_home.quick_access.text[site.active_lang] }}</h3>
+        <h3>{{ 42ai_home.quick_access.text[site.active_lang] }}
+          <span class="d-md-none" style="float: right; width:auto; height: 18px; display: inline-flex; border-radius: 0px;">
+            <img src="/assets/img/corner.png"/>
+          </span>
+        </h3>
 
         <div class="row container" style="padding: 15px;">
           <div class="col-md-6 col-sm-12">
@@ -125,7 +119,9 @@
               <li class="hoverableLink"><a target="_blank" href="{{42ai_home.quick_access.ml_btcmp_link.url}}">
                   <i class="fa-solid fa-cog fa-lg"></i>&emsp;{{ 42ai_home.quick_access.ml_btcmp_link[site.active_lang] }}</a>
                 </li>
-              
+              <li class="hoverableLink"><a href="{{42ai_home.quick_access.blog_post_link.url[site.active_lang]}}">
+                <i class="fa-solid fa-lightbulb fa-lg"></i>&emsp;{{ 42ai_home.quick_access.blog_post_link[site.active_lang] }}</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -139,7 +135,11 @@
       <!-- ACTIVITY / LAST POSTS -->
      <div style="margin: 25px 15px 25px 15px;">
 
-         <h3 class="roboto" style="color: grey;">{{ 42ai_home.last_activity[site.active_lang] }}</h3>
+         <h3 class="roboto" style="color: grey;">{{ 42ai_home.last_activity[site.active_lang] }}
+          <span class="d-md-none" style="float: right; width:auto; height: 18px; display: inline-flex; border-radius: 0px;">
+            <img src="/assets/img/corner.png"/>
+          </span>
+         </h3>
 
          <div class="column" style="margin-top: 30px;">
           {% assign posts = '' | split: '' %}

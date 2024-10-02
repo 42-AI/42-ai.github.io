@@ -10,17 +10,17 @@ image:
 
 ## 🚀 42AI accueille le Centre pour la Sécurité de l'IA (CeSIA) d'EffiSciences pour son Vendred'IA ! 🤖
 
-Le CeSIA (ancien pôle IA d'EffiSciences) est un collectif fondé au sein des Écoles Normales Supérieures dont la vocation est d'"agir pour une recherche plus impliquée face aux problèmes de notre monde". Plus d'infos sur securite-ia.fr.
+Le **CeSIA** (ancien pôle IA d'EffiSciences) est un collectif fondé au sein des Écoles Normales Supérieures dont la vocation est d'"agir pour une recherche plus impliquée face aux problèmes de notre monde". Plus d'infos sur securite-ia.fr.
 
-Comment peut-on s'assurer que le développement de l'IA soit sécurisé et bénéfique pour notre avenir ?
+***Comment peut-on s'assurer que le développement de l'IA soit sécurisé et bénéfique pour notre avenir ?***
 
 C'est l'enjeu des travaux portés par le CeSIA.
 
 Au programme de cette conférence introductive :
 
-la présentation de différents scénarios de risques liés à l'IA 💥
+- la présentation de différents scénarios de risques liés à l'IA 💥
 
-des pistes de solutions pour les entreprises, les chercheurs et les acteurs publics 🧑‍🔬
+- des pistes de solutions pour les entreprises, les chercheurs et les acteurs publics 🧑‍🔬
 
 Cette conférence est ouverte à tous, et ne nécessite aucune expertise en IA.
 

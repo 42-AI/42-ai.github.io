@@ -12,10 +12,11 @@ author:
 
 ## 42 Artificial Intelligence se dôte d'un nouveau site ! 
 
-Nous avons utilisé GitHub pages pour refondre notre site, et réactiver le domaine **42ai.fr**.
+Nous avons utilisé GitHub pages pour refondre notre site web, et réactiver le domaine **42ai.fr**.
 
 En plus d'être gratuite, cette solution permet d'héberger facilement des billets de blog. 
 
 Si vous souhaitez publier un article sur notre site, rendez-vous dans la section [42students](/42students)
 
-On espère que le résultat vous plaît ! 
+On espère que le résultat vous plaît !
+

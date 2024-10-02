@@ -8,6 +8,8 @@ image:
   path: /assets/img/events/aiInParis.png
 ---
 
+## AI In Paris
+
 Fruit d'une première collaboration entre 42AI, 42Entrepreneurs et la Paris AI Society, la soirée "AI in Paris" a rassemblé plus de 200 personnes, étudiants et externes, venus écouter des témoignages d'entrepreneurs et échanger autour de pizzas ! 
 
 Nous sommes fiers d'avoir pu accueillir : 
@@ -17,4 +19,4 @@ Nous sommes fiers d'avoir pu accueillir :
 - Benoît MARTIN: CTO, Naaia - Artificial Intelligence Management System™ (AIMS)
 - Eric WETZEL: Data & AI Business Expert, Databricks
 
-Toutes les photos sont disponibles ici https://drive.google.com/drive/folders/1z8Z7m2PeP4JcXy4D8kOKSCo-KqShxniZ?usp=drive_link
+Toutes les photos sont [disponibles ici](https://drive.google.com/drive/folders/1z8Z7m2PeP4JcXy4D8kOKSCo-KqShxniZ?usp=drive_link)
