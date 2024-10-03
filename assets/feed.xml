@@ -5,7 +5,7 @@ permalink: /feed.xml
 ---
 
 {% capture source %}
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="https://www.w3.org/2005/Atom">
   <id>{{ "/" | absolute_url }}</id>
   <title>{{ site.title }}</title>
   <subtitle>{{ site.description }}</subtitle>
