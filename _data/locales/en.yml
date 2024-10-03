@@ -72,7 +72,7 @@ post:
       succeed: Link copied successfully!
 
 # Date time format.
-# See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
+# See: <https://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
     strftime: "%b %e, %Y"

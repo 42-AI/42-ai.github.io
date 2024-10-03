@@ -63,7 +63,7 @@ main() {
   # test
   bundle exec htmlproofer "$SITE_DIR" \
     --disable-external \
-    --ignore-urls "/^http:\/\/127.0.0.1/,/^http:\/\/0.0.0.0/,/^http:\/\/localhost/"
+    --ignore-urls "/^https:\/\/127.0.0.1/,/^https:\/\/0.0.0.0/,/^https:\/\/localhost/"
 }
 
 while (($#)); do

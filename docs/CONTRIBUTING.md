@@ -95,7 +95,7 @@ When development is complete, create a [Conventional Commit][cc] with Git.
 [issues]: https://github.com/cotes2020/jekyll-theme-chirpy/issues?q=is%3Aissue
 [pr]: https://github.com/cotes2020/jekyll-theme-chirpy/pulls
 [discus]: https://github.com/cotes2020/jekyll-theme-chirpy/discussions
-[ext-reading]: http://www.catb.org/~esr/faqs/smart-questions.html
+[ext-reading]: https://www.catb.org/~esr/faqs/smart-questions.html
 [jekyll-talk]: https://talk.jekyllrb.com/
 [stack-overflow]: https://stackoverflow.com/questions/tagged/jekyll
 [rtfm]: https://en.wikipedia.org/wiki/RTFM
