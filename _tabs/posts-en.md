@@ -14,7 +14,7 @@ display_metadata: False
 
 ## Contributions 
 
-> [Create a blog article on 42AI's site](/42students/#contributing-by-publishing-a-blog-article)
+> [Create a blog article on 42AI's site](/en/42students#contributing-by-publishing-a-blog-article)
 
 ## Articles
 

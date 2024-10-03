@@ -14,7 +14,7 @@ display_metadata: False
 
 ## Contributions 
 
-> [Publier un article](/42students/#contribuer-en-publiant-un-billet-de-blog)
+> [Publier un article](/42students#contribuer-en-publiant-un-billet-de-blog)
 
 ## Articles
 
