@@ -5,7 +5,11 @@
 {% assign all_list = '' | split: '' %}
 
 {% for post in site.posts %}
-  {% assign datetime = post.last_modified_at | default: post.date %}
+<!-- Modif 42AI -->
+  {% assign datetime = default: post.date %}
+    <!-- Initial line : -->
+    <!-- {% assign datetime = post.last_modified_at | default: post.date %} -->
+<!-- Fin Modif42AI -->
 
   {% capture elem %}
     {{- datetime | date: "%Y%m%d%H%M%S" -}}::{{- forloop.index0 -}}
@@ -14,7 +18,7 @@
   {% assign all_list = all_list | push: elem %}
 {% endfor %}
 
-{% assign all_list = all_list | sort | reverse %}
+    {% assign all_list = all_list | sort | reverse %}
 
 {% assign update_list = '' | split: '' %}
 
@@ -24,7 +28,7 @@
 
 {% if update_list.size > 0 %}
   <section id="access-lastmod">
-    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.lastmod -}}<img style="margin: 0px auto 5px 5px" width="12px" src="/assets/img/corner.png"/></h2>
+    <h2 class="panel-heading">{{- site.data.locales[site.active_lang].panel.lastmod -}}<img style="margin: 0px auto 5px 5px; width:12px" src="/assets/img/corner.png"/></h2>
     <ul class="content list-unstyled ps-0 pb-1 ms-1 mt-2">
       {% for item in update_list %}
         {% assign index = item | split: '::' | last | plus: 0 %}
@@ -36,17 +40,16 @@
       {% endfor %}
 
     </ul>
-            <!-- Ajout 42AI -->
-            <a href="/categories">
-              <button class="post-tag btn btn-outline-primary" style="background-color: lightgrey; margin-top: 05px;
-              border-radius: 5px; font-family: roboto;">
-                {% if site.active_lang == 'fr' %}Voir tous les posts
-                {% elsif site.active_lang == 'en' %}See all posts
-                {% endif %}
-                 </button>
-        
-             </a>
-            <!-- //Ajout 42AI -->
+        <!-- Ajout 42AI -->
+        <a href="/categories">
+          <button class="post-tag btn btn-outline-primary" style="background-color: lightgrey; margin-top: 05px;
+          border-radius: 5px; font-family: roboto;">
+            {% if site.active_lang == 'fr' %}Voir tous les posts
+            {% elsif site.active_lang == 'en' %}See all posts
+            {% endif %}
+              </button>
+          </a>
+        <!-- //Ajout 42AI -->
 
   </section>
   <!-- #access-lastmod -->

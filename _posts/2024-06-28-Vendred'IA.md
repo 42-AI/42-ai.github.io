@@ -24,7 +24,7 @@ Au programme de cette conférence introductive :
 
 Cette conférence est ouverte à tous, et ne nécessite aucune expertise en IA.
 
-📅 Vendredi 28 Juin à 19h
+- 📅 Vendredi 28 Juin à 19h -
 
 📍 BESS, Café des Associations
 
