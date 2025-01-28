@@ -61,3 +61,13 @@ media:
     audiovisuels comme des podcasts, des entretiens ou autres."
     en: "The Media Department is an experimentation consisting in the production of short
     visual contents such as podcasts, interviews or else."
+
+safety:
+  title:
+    fr: "Pôle AI Safety"
+    en: "AI Safety Department"
+  people: "Pierina Camarena"
+  contact: "safety@42ai.fr"
+  description: 
+    fr: "Le pôle Sécurité vise à informer et sensibiliser sur les risques induits par l'émergence de technologies d'intelligence artificielle toujours plus puissantes."
+    en: "The AI Safety department wishes to inform and raise awareness on the risks that represents the development of rogue AI, and the needs to keep AI development in line with human interests."
