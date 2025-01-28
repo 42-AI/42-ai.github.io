@@ -10,7 +10,7 @@
 
       {% if paths.size == 0 or page.layout == 'home' %}
         <!-- index page -->
-        <span>{{ site.data.locales[site.active_lang].tabs.home | capitalize }}</span>
+        <!-- <span>{{ site.data.locales[site.active_lang].tabs.home | capitalize }}</span> -->
 
       {% else %}
         {% for item in paths %}
@@ -56,8 +56,6 @@
         {{- site.data.locales[site.active_lang].layout[page.layout] | default: page.layout | capitalize -}}
       {% endif %}   -->
       <!-- // 42AI modif -->
-
-
   <!-- 42AI modif : Removing Useless Searchbar ie d-none class -->
 
     <button type="button" id="search-trigger" class="btn btn-link d-none">

@@ -41,4 +41,4 @@ description:
 
 ## {{learning_template_variables.other_resources.title[lang]}}
 
-Section en construction
+Section en construction. N'hésitez pas à jeter un oeil au contenu de notre github. 
