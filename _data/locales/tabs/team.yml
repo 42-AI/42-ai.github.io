@@ -78,6 +78,18 @@ current_team:
       description: 
       photo: assets/img/members/empty.png
       42login: tkomaris
+  safety: 
+    title:
+      en: 'Head of the AI Safety department'
+      fr: 'Responsable du pôle Sécurité'
+    person: 
+      name: 'Pierina Camarena'
+      git:  
+      linkedin:
+      twitter: 
+      description: 
+      photo: assets/img/members/empty.png
+      42login: pcamaren
   helpers:
     maxence:
       name: 'Maxence'

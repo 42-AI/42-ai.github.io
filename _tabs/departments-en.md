@@ -40,6 +40,13 @@ description:
 
 {{template_variables.lab.description[lang]}}
 
+### {{template_variables.safety.title[lang]}}
+
+> **{{template_variables.safety.people}}**
+> <a href="mailto:{{template_variables.safety.contact}}"><span style="float:right">{{template_variables.safety.contact}}&nbsp;&nbsp;<i class="fas fa-envelope"></i></span></a>
+
+{{template_variables.safety.description[lang]}}
+
 ### {{template_variables.media.title[lang]}}
 
 > **{{template_variables.media.people}}**
