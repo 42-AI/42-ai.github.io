@@ -9,7 +9,7 @@ categories: [Conférences,AI_Safety]
 tags: [42AI,Événements,AI_Safety]     # TAG names should always be lowercase
 description: "Enjeux et discussions autour de l'AI Safety"
 image:
-    path: /assets/img/banners/banner_post_event.png
+    path: /assets/img/events/path_to_a_safety.png
 # // REQUIRED date : 2024-06-13 13:37:00 +/-TTTT 
 # Only modify the date and hours elements, leave the +/-TTTT unchanged.
 date: 2025-01-26 13:37:00 +/-TTTT
