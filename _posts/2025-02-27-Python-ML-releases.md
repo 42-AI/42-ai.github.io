@@ -1,6 +1,6 @@
 ---
 title: Nouvelle version des Bootcamps
-date: 2025-02-27 10:10:10 +/-TTTT
+date: 2025-02-25 10:10:10 +/-TTTT
 categories: [Annonces,Bootcamps]
 tags: [Bootcamps,42AI]
 description: "Py-Boot 3.3 & ML-Boot 5.1"
