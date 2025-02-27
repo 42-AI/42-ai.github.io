@@ -107,6 +107,14 @@ current_team:
       description: 
       photo: assets/img/members/empty.png
       42login: 
+    alexandre:
+      name: 'Alexandre Suteau'
+      git:  
+      linkedin:
+      twitter: 
+      description: 
+      photo: assets/img/members/empty.png
+      42login: 
 # ********************************************
 # 2022 ALUMNI
 # ********************************************
