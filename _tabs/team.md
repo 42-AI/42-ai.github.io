@@ -138,7 +138,7 @@ description:
         <div class="row" style="align-items: center; display:flex; margin-top: 15px">
         <div class="col-1 col-xs-12"><img src="{{current_team.media.person.photo}}" width=48px/></div>
         <div class="col-5 col-xs-12">Alexandre Suteau</div>
-        <div class="col-5 col-xs-12"><span>Helper</span></div>
+        <div class="col-5 col-xs-12"><span>Volontaire</span></div>
     </div>
 <h2>Alumni</h2>
 
