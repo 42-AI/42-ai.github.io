@@ -13,7 +13,7 @@ Les bootcamps Python et Machine Learning ont été mis à jour ! (En attendant l
 
 Retrouvez les dernières versions sur notre Github : 
 
-- <a href="https://github.com/42-AI/bootcamp_python/releases/tag/version%2F3.3.0">Python Bootcamp 3.3</a>
-- <a href="https://github.com/42-AI/bootcamp_machine-learning/releases/tag/version%2F5.1.1">Machine Learning Bootcamp 5.1</a>
+<a href="https://github.com/42-AI/bootcamp_python/releases/tag/version%2F3.3.0">Python Bootcamp 3.3</a>
+<a href="https://github.com/42-AI/bootcamp_machine-learning/releases/tag/version%2F5.1.1">Machine Learning Bootcamp 5.1</a>
 
 L'équipe 42AI
