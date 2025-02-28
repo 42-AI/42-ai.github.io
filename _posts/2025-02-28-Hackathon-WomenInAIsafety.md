@@ -5,7 +5,7 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-categories: [Blog]
+categories: [Hackathon]
 is_blog_post: True
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
