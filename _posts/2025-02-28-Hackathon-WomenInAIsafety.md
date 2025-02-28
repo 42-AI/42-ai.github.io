@@ -31,22 +31,13 @@ description: For the Win !
     # If you don't have an image, leave this item unchanged.
     # You can place your custom image in the `/assets/img/blog/` folder. If you do, don't forget to edit the following
 image:
-<<<<<<< HEAD
-    path: /assets/img/banners/banner_post_adm.png
-=======
-    path: /assets/img/banners/hack_womenInAiSafety.png
->>>>>>> 469440f3 (ADD - hackathon image)
+    path: /assets/img/events/hack_womenInAiSafety.png
 
 # // REQUIRED Title : Keep it short, catchy and consistent with your article   
 title: Hackathon Women in AI Safety Research 👩‍🔬
 ---
 
-<<<<<<< HEAD
-Your Markdown content HERE
-March the 8th will be **International Women's day** ! 👩‍♀️
-=======
 **March the 8th will be International Women's day** ! 👩‍♀️
->>>>>>> 469440f3 (ADD - hackathon image)
 
 **42 Artificial Intelligence** is pleased to contribute to this cause by hosting a jam site for the **Women in AI Safety Research Hackathon**, a worldwide event co-organized by *ApartResarch, BlueDot, and WomenWhoDoData (W2D2)* ! ✨
 
