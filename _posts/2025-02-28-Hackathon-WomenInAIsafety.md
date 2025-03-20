@@ -5,11 +5,7 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-<<<<<<< HEAD
-categories: [Blog]
-=======
 categories: [Hackathon]
->>>>>>> d02b84af626459b3ced0a2942255dfc48a72d603
 is_blog_post: True
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
@@ -35,11 +31,7 @@ description: For the Win !
     # If you don't have an image, leave this item unchanged.
     # You can place your custom image in the `/assets/img/blog/` folder. If you do, don't forget to edit the following
 image:
-<<<<<<< HEAD
-    path: /assets/img/banners/hack_womenInAiSafety.png
-=======
     path: /assets/img/events/hack_womenInAiSafety.png
->>>>>>> d02b84af626459b3ced0a2942255dfc48a72d603
 
 # // REQUIRED Title : Keep it short, catchy and consistent with your article   
 title: Hackathon Women in AI Safety Research 👩‍🔬
