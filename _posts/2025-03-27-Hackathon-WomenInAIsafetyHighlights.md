@@ -33,7 +33,7 @@ image:
     path: /assets/img/events/hack_womenInAiSafety_retex.png
 
 # // REQUIRED Title : Keep it short, catchy and consistent with your article   
-title: Hackathon Women in AI Safety Research - Highlights 👩‍🔬
+title: Hackathon Women in AI Safety - Highlights 👩‍🔬
 ---
 
 ## Bridging the gap between 42 students and AI research !
@@ -46,17 +46,17 @@ For a little more than a weekend, contenders worked at crafting a research paper
 - **Social Sciences**
 - **Public Education** 
 
-Participants from our 42AI Paris jam site have demonstrated great interest for these topics, which eventually led to **5 teams submissions covering as diverse subjects as AI biases, disinformation and fake news, guardrails for medical AI chatbots, neuronal pathways coverage or behavioral nudges to raise awareness !** 
+Participants from our 42AI Paris jam site have demonstrated great interest for these topics, which eventually led to **5 team submissions covering as diverse subjects as AI biases, disinformation and fake news, guardrails for medical AI chatbots, neuronal pathways coverage or behavioral nudges to raise awareness !** 
 
 Without further adue, we are happy to shed light on these works : 
 
-- ["AI bias in resume screening" by Inès Aliane and Mauro Abidal](https://apartresearch.com/project/ai-bias-in-resume-screening).
-- ["Medical Agent Controller" by Quentin Marquet, Ouafae Moudni, Shakthivel Murugavel, Xavier Charles and Elise Racine](https://apartresearch.com/project/medical-agent-controller).
-- ["Mechanistic Interpretability Track: Neuronal Pathway Coverage" by Garance Colomer, Luc Chan, Sacha Lahlou and Leina Corporan Miath](https://apartresearch.com/project/mechanistic-interpretability-track-neuronal-pathway-coverage)
-- ["Identification if AI-generated content" by Yvan Bondar & Bakyt Naurzalinov](https://apartresearch.com/project/identification-if-ai-generated-content)
-- ["AI-Powered Policymaking: Behavioral Nudges and Democratic Accountability" by Jana Dagher & Michel Chbeir](https://apartresearch.com/project/ai-powered-policymaking-behavioral-nudges-and-democratic-accountability)
+- **["AI bias in resume screening" by Inès Aliane and Mauro Abidal](https://apartresearch.com/project/ai-bias-in-resume-screening).**
+- **["Medical Agent Controller" by Quentin Marquet, Ouafae Moudni, Shakthivel Murugavel, Xavier Charles and Elise Racine](https://apartresearch.com/project/medical-agent-controller).**
+- **["Mechanistic Interpretability Track: Neuronal Pathway Coverage" by Garance Colomer, Luc Chan, Sacha Lahlou and Leina Corporan Miath](https://apartresearch.com/project/mechanistic-interpretability-track-neuronal-pathway-coverage)**
+- **["Identification if AI-generated content" by Yvan Bondar & Bakyt Naurzalinov](https://apartresearch.com/project/identification-if-ai-generated-content)**
+- **["AI-Powered Policymaking: Behavioral Nudges and Democratic Accountability" by Jana Dagher & Michel Chbeir](https://apartresearch.com/project/ai-powered-policymaking-behavioral-nudges-and-democratic-accountability)**
 
-Congratulations to all participants, for most of whom this was a first attempt at writing a research paper ! 
+Congratulations to all participants, for most of whom this was a first attempt at writing a research paper ! 👏👏👏
 
 This was a first hackathon for us involving research, but definitely not our last ! We'll be happy to host this kind of competition again, and continue to fill the gap between Academia and our members ! 
 
