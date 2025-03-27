@@ -41,12 +41,12 @@ title: Hackathon Women in AI Safety Research - Highlights 👩‍🔬
 This year, 42AI celebrated **International Women's Rights Day** by hosting a jam site for the worldwide
 [Women in AI Safety Research Hackathon](link), a global event organized by [ApartResearch](https://apartresearch.com/sprints/women-in-ai-safety-hackathon-2025-03-07-to-2025-03-14) that gathered more than 350 participants worldwide ! 
 
-For a little more than a weekend, contenders worked at crafting a research paper on one of the challenge's proposed tracks: 
-- "Mechanistic Interpretability"
-- "Social Sciences"
-- "Public Education" 
+For a little more than a weekend, contenders worked at crafting a research paper on one of the **challenge's proposed tracks**: 
+- **Mechanistic Interpretability**
+- **Social Sciences**
+- **Public Education** 
 
-Participants from our 42AI Paris jam site have demonstrated great interest for these topics, which eventually led to 5 teams submissions covering as diverse subjects as AI biases, disinformation and fake news, guardrails for medical AI chatbots, neuronal pathways coverage or behavioral nudges to raise awareness ! 
+Participants from our 42AI Paris jam site have demonstrated great interest for these topics, which eventually led to **5 teams submissions covering as diverse subjects as AI biases, disinformation and fake news, guardrails for medical AI chatbots, neuronal pathways coverage or behavioral nudges to raise awareness !** 
 
 Without further adue, we are happy to shed light on these works : 
 
