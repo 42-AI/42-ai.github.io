@@ -6,7 +6,7 @@
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
 categories: [Hackathon]
-is_blog_post: True
+is_blog_post: False
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
 
@@ -20,7 +20,7 @@ author:
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Hackathon', '42AI', ]
+tags: ['Hackathon', '42AI']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: For the Win !

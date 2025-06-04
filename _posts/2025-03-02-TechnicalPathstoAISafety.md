@@ -6,7 +6,7 @@
 title: Conférence "Technical Paths to AI Safety 🔬"
 date: 2025-03-02 19:00:00 +/-TTTT
 categories: [Conférences,AI_Safety]
-tags: [42AI,Événements,AI_Safety]     # TAG names should always be lowercase
+tags: [42AI,Événements]     # TAG names should always be lowercase
 description: "Enjeux et discussions autour de l'AI Safety"
 image:
     path: /assets/img/events/path_to_a_safety.png

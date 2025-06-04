@@ -6,7 +6,7 @@
 title: Fresque de la Sécurité de l'IA x CeSIA
 date: 2025-25-03 18:00:00 +/-TTTT
 categories: [Workshop,AI_Safety]
-tags: [42AI,Événements,AI_Safety]
+tags: [42AI,Événements]
 description: "Découverte des enjeux de l'AI Safety"
 image:
     path: /assets/img/events/fresque_ia_safety.png
