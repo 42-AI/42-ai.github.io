@@ -20,7 +20,7 @@ author: maperez42
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Hackathon', 'Robotics', '42AI']
+tags: ['Hackathon', 'Robotics', '42AI','Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: Step into AI Robotics with HugginFace ! 

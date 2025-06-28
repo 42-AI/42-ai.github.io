@@ -20,7 +20,7 @@ author:
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Workshop', 'AI_Safety', 'Meeting', '42AI']
+tags: ['Workshop', 'AI_Safety', 'Meeting', '42AI', 'Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: Be WISE !!! 
@@ -64,5 +64,6 @@ Women in Safety and Ethics (WISE) is a global association dedicated to empowerin
 
 ​Since 2018, **Women in AI Ethics™ (WAIE)** has elevated the voices of experts from multidisciplinary backgrounds and showcased the role of diverse perspectives in responsible design and development of AI models and systems. WAIE publishes “100 Brilliant Women in AI Ethics™” list annually, offers free AI literacy classes at public libraries, and hosts expert talks on the most urgent issues in responsible AI as part of its mission to make this space more diverse, ethical, and inclusive.
 
+Huge thanks to **Camille Truchot**, our Vice-President and Head of the AI Ethics department, for being at the initiative of this event ! 
 
 The [42AI](https://42-ai.github.io) team 🚀

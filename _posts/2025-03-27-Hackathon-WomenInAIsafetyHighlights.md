@@ -20,7 +20,7 @@ author:
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Hackathon', '42AI', 'AI_Safety']
+tags: ['Hackathon', '42AI', 'AI_Safety','Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: Discover our participants' works! 
