@@ -1,7 +1,7 @@
 ---
 title: Conférence "Introduction à la sécurité des IA" x CeSIA 🤖
 date: 2024-06-28 19:00:00 +/-TTTT
-categories: [Conférences,AI_Safety]
+categories: [Conférences]
 tags: [Événements,Collaborations,AI_Safety,Conférences,42AI]
 description: "42AI accueille le Centre pour la Sécurité de l'IA"
 image:
@@ -38,6 +38,6 @@ Pour les étudiants intéressés et n'ayant pas pu s'inscrire sur l'intra : Intr
 
 Rendez-vous à BESS, au Café des Associations, à partir de 19h !
 
-Au plaisir de vous y retrouver !
+Au plaisir de vous y retrouver ! 🚀
 
 L'équipe 42AI

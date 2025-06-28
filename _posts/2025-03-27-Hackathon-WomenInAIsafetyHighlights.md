@@ -5,7 +5,7 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-categories: [Hackathon,AI_Safety]
+categories: [Hackathon]
 is_blog_post: True
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
@@ -58,6 +58,8 @@ Without further adue, we are happy to shed light on these works :
 
 Congratulations to all participants, for most of whom this was a first attempt at writing a research paper ! 👏👏👏
 
-This was a first hackathon for us involving research, but definitely not our last ! We'll be happy to host this kind of competition again, and continue to fill the gap between Academia and our members ! 
+**This was a first hackathon for us involving research, but definitely not our last !**
+
+We'll be happy to host this kind of competition again, and continue to fill the gap between Academia and our members ! 
 
 The [42AI](https://42-ai.github.io) team 🚀

@@ -5,7 +5,7 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-categories: [Hackathon,Robotics]
+categories: [Hackathon]
 is_blog_post: False
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
@@ -19,7 +19,8 @@ author: maperez42
 
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
-    # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
+    # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ...
+    # Always add '42AI' so that all posts could be seen using this tag 
 tags: ['Hackathon', 'Robotics', '42AI', 'Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
@@ -44,11 +45,11 @@ We are delighted and proud to announce that 𝟰 𝘁𝗲𝗮𝗺𝘀 from last 
 
 After one wild day of public voting on LeRobot's Discord, the public has finally made its decision ... and boy, that was tight until the end ! Thanks to the 42 community worldwide for their mobilization !
 
-👨‍🍳 𝗟𝗲𝗖𝗵𝗲𝗳 𝗶𝘀 𝘁𝗵𝗶𝘀 𝘆𝗲𝗮𝗿'𝘀 𝗴𝗿𝗮𝗻𝗱 𝘄𝗶𝗻𝗻𝗲𝗿 🏆 ! 
+👨‍🍳 𝗟𝗲𝗖𝗵𝗲𝗳 𝗶𝘀 𝘁𝗵𝗶𝘀 𝘆𝗲𝗮𝗿'𝘀 𝗴𝗿𝗮𝗻𝗱 𝘄𝗶𝗻𝗻𝗲𝗿 🏆 !
 
 ➕ 𝗟𝗲𝗦𝗽𝗹𝗮𝘁 𝗺𝗮𝗻𝗮𝗴𝗲𝗱 𝘁𝗼 𝗹𝗲𝘃𝗲𝗹 𝘂𝗽 𝘁𝗼 𝘁𝗵𝗲 𝟯𝗿𝗱 𝗽𝗹𝗮𝗰𝗲 !🥉 
 
-2 teams on the podium ... a result that goes beyond our wildest expectations ! 😁 💫 
+**2 teams on the podium ... a result that goes beyond our wildest expectations !** 😁 💫 
 
 Check out the list of the 30 winning projects announced this morning and their videos 
 👇

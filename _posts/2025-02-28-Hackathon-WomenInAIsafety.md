@@ -20,7 +20,7 @@ author:
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Hackathon', '42AI']
+tags: ['Hackathon', 'AI_Safety', '42AI']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: For the Win !
@@ -75,7 +75,7 @@ In order to access **42AI's jam site on Saturday 8 and Sunday 9 (10 AM - 7 PM)**
 
 - https://lu.ma/pl1m1i4y
 
-42AI will create a dedicated Discord server to allow participants to discuss, share resources and make teams prior to the start of the event.
+42AI will create a dedicated Discord server to allow participants to discuss, share resources and make teams prior to the start of the event. 👩‍🔬
 
 **Looking forward to seeing you all next week-end ! Time to shine !🌟**
 

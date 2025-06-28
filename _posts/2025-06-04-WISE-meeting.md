@@ -5,7 +5,7 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-categories: [Workshop,AI_Safety,Women]
+categories: [Workshop]
 is_blog_post: False
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
@@ -20,7 +20,7 @@ author:
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Workshop', 'AI_Safety', 'Meeting', '42AI', 'Événements']
+tags: ['Workshop', 'AI_Safety', '42AI', 'Événements', 'Collaborations']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: Be WISE !!! 
