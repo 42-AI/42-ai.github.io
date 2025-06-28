@@ -5,8 +5,8 @@
 # ************************************************************************
 title: Conférence "Technical Paths to AI Safety 🔬"
 date: 2025-03-02 19:00:00 +/-TTTT
-categories: [Conférences,AI_Safety]
-tags: [42AI,Événements]     # TAG names should always be lowercase
+categories: [Conférences]
+tags: [42AI,AI_Safety,Événements]     # TAG names should always be lowercase
 description: "Enjeux et discussions autour de l'AI Safety"
 image:
     path: /assets/img/events/path_to_a_safety.png
@@ -40,19 +40,19 @@ Le développement de systèmes d'intelligence artificielle toujours plus perform
 
 ## Programme 🗓️
 
-19h00 - Introduction à la Sécurité de l'IA
+**19h00 - Introduction à la Sécurité de l'IA**
 
 Une introduction accessible à tous sur cette nouvelle discipline, sa raison d'être et ses enjeux 
 
-19h30 - Parcours technique dans la Sécurité de l'IA
+**19h30 - Parcours technique dans la Sécurité de l'IA**
 
 Les intervenants partagent leur évolution de l'ingénierie vers les défis de la sécurité de l'IA
 
-20h00 - Table ronde & Questions/Réponses
+**20h00 - Table ronde & Questions/Réponses**
 
 Participez à la discussion avec nos intervenants sur l'état actuel et l'avenir de la Sécurité de l'IA
 
-20h30 - Networking
+**20h30 - Networking**
 
 ## Inscriptions 
 

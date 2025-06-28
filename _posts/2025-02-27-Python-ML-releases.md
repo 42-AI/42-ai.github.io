@@ -1,7 +1,7 @@
 ---
 title: Nouvelle version des Bootcamps
 date: 2025-02-25 10:10:10 +/-TTTT
-categories: [Annonces,Bootcamps]
+categories: [Annonces]
 tags: [Bootcamps,42AI]
 description: "Py-Boot 3.3 & ML-Boot 5.1"
 image:
@@ -9,7 +9,7 @@ image:
 authors: [maperez42]
 ---
 
-Les bootcamps Python et Machine Learning ont été mis à jour ! (En attendant l'arrivée prochaine du Bootcamp Deep Learning 🔥🔥🔥)
+Les bootcamps Python et Machine Learning ont été mis à jour ! (En attendant l'arrivée prochaine du Bootcamp Deep Learning 🔥)
 
 Retrouvez les dernières versions sur notre Github : 
 

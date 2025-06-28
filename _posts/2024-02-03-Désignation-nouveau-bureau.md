@@ -1,7 +1,7 @@
 ---
 title: Désignation du nouveau bureau de l'association 🚀
 date: 2024-02-03 13:37:00 +/-TTTT
-categories: [Annonces,Administration]
+categories: [Annonces]
 tags: [Administration,42AI]     # TAG names should always be lowercase
 description: "42AI est de retour !"
 image:
@@ -20,4 +20,6 @@ Plus de détails sur le fonctionnement de l'association sur les pages suivantes 
 - [L'équipe](/team)
 - [Pôles](/departments)
 - [Étudiants de 42](/42students)
+
+La nouvelle équipe de 42AI ;-) 
 

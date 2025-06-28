@@ -5,14 +5,14 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-categories: [Hackathon,Robotics]
+categories: [Hackathon]
 is_blog_post: False
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
 
 # // REQUIRED date : 2024-06-13 13:37:00 +/-TTTT 
     # Only modify the date and hours elements, leave the +/-TTTT unchanged.
-date: 2025-06-04 13:37:00 +/-TTTT
+date: 2025-06-14 13:37:00 +/-TTTT
 
 # Author : will default to 42AI if not filled. 
 author: maperez42
@@ -20,7 +20,7 @@ author: maperez42
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Hackathon', 'Robotics', '42AI']
+tags: ['Hackathon', 'Robotics', '42AI','Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: Step into AI Robotics with HugginFace ! 
@@ -59,7 +59,6 @@ Join us for a wild week-end on a global hackathon to learn, train, and solve rea
 - Take part in a global event with more than 3000 participants !
 - A vibrant community of curious minds !
 ​
-
 ✅ Open to all - No experience ? No problem !
 
 ### Registration 🚀
@@ -85,4 +84,4 @@ Join the [competition's Discord](https://discord.com/invite/s3KuuzsPFb) and [42P
 - **[Phospho](https://phospho.ai/)**
 - **[RAISE Summit](https://www.raisesummit.com)**
 
-The 42AI Team
+**The 42AI Team**

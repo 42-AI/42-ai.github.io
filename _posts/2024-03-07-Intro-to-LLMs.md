@@ -1,8 +1,8 @@
 ---
-title: Conférence "Intro to LLMs and Prompt Engineering"
+title: Conférence "Intro to LLMs and Prompt Engineering" 💬
 date: 2024-03-06 17:30:00 +/-TTTT
-categories: [Conférences,Generative_AI]
-tags: [Événements,42AI,Generative_AI]     # TAG names should always be lowercase
+categories: [Conférences]
+tags: [Conférences,Événements,42AI,Generative_AI]     # TAG names should always be lowercase
 description: ""
 image:
   path: /assets/img/banners/banner_post_event.png

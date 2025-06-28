@@ -5,7 +5,7 @@
 # ************************************************************************
 # DO NOT EDIT THE FOLLOWING LINES
 layout: post
-categories: [Hackathon,AI_Safety]
+categories: [Hackathon]
 is_blog_post: True
 # ************************************************************************
 # EDIT THE FOLLOWING LINES
@@ -20,7 +20,7 @@ author:
 # Tags: add a 3rd TAG to the following list to evoke your article's content thematic. 
     # If an existing tag works with your article, please use it in priority. 
     # Existing : Generative_AI ; AI_Safety ; AI_Entrepreneur ; 
-tags: ['Hackathon', '42AI', 'AI_Safety']
+tags: ['Hackathon', '42AI', 'AI_Safety','Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
 description: Discover our participants' works! 
@@ -58,6 +58,8 @@ Without further adue, we are happy to shed light on these works :
 
 Congratulations to all participants, for most of whom this was a first attempt at writing a research paper ! 👏👏👏
 
-This was a first hackathon for us involving research, but definitely not our last ! We'll be happy to host this kind of competition again, and continue to fill the gap between Academia and our members ! 
+**This was a first hackathon for us involving research, but definitely not our last !**
+
+We'll be happy to host this kind of competition again, and continue to fill the gap between Academia and our members ! 
 
 The [42AI](https://42-ai.github.io) team 🚀

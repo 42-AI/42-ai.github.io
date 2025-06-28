@@ -5,8 +5,8 @@
 # ************************************************************************
 title: Fresque de la Sécurité de l'IA x CeSIA
 date: 2025-25-03 18:00:00 +/-TTTT
-categories: [Workshop,AI_Safety]
-tags: [42AI,Événements]
+categories: [Workshop]
+tags: [42AI,Événements,AI_Safety,Collaborations]
 description: "Découverte des enjeux de l'AI Safety"
 image:
     path: /assets/img/events/fresque_ia_safety.png
@@ -28,7 +28,7 @@ author:
 
 ​Dans un contexte d’augmentation toujours plus importante des capacités des IA, des risques humains et sociétaux apparaissent ou sont amplifiés.
 
-​Sans prérequis techniques, cet atelier ludique et pédagogique vous permettra de :
+**​Sans prérequis techniques, cet atelier ludique et pédagogique vous permettra de :**
 
 ​- Construire collectivement une fresque qui révèle les liens entre les capacités de l'IA, leurs implications et les risques associés,
 
