@@ -23,7 +23,7 @@ author: maperez42
 tags: ['Hackathon', 'Collaborations', '42AI','Événements']
 
 # // REQUIRED Description : text that will display under the title // + SEO // Keep it short and relevant
-description: No summer break for the builders ! 
+description: No summer break for the builders ! ☀️
 # Image: the illustration image that will accompany your article on links and in the article itself.
     # Images should be of dimensions ratio 3:1
     # Images can point to external urls
